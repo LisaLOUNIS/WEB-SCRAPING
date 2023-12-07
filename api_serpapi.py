@@ -54,3 +54,4 @@ def fetch_all_google_jobs_data(api_key, query, location, hl="en", chips=None):
 # Utilisation de la fonction
 # Remplacez 'your_api_key' par votre clé SerpApi réelle
 complete_data = fetch_all_google_jobs_data("65c15aeae94ce28a059108557e76ff428c362bd6550714533d91c1cf3c77f016", "Data Scientist", "Ile-De-France, France")
+print("DATA OUTPUT", complete_data)
