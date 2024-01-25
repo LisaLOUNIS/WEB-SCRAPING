@@ -47,6 +47,7 @@ if app_mode == "Filter offers":
     selected_company = st.sidebar.selectbox("Select company: ", ['No filters'] + list(df['company_name'].unique()))
     unique_skills = list(set(skill for sublist in df['technical_skills'].dropna().apply(eval) for skill in sublist))
     selected_skill = st.sidebar.selectbox("Select skill: ", ['No filters'] + unique_skills)
+    show_ranked_only = st.sidebar.checkbox("Show only ranked offers")
 
     # Filtered data display
     filtered_data = df
@@ -56,8 +57,19 @@ if app_mode == "Filter offers":
         filtered_data = filtered_data[filtered_data['company_name'] == selected_company]
     if selected_skill != 'No filters':
         filtered_data = filtered_data[filtered_data['technical_skills'].apply(lambda x: selected_skill in eval(x) if pd.notna(x) else False)]
+    if show_ranked_only:
+        filtered_data = filtered_data[filtered_data['rank'].notna()]
 
-    st.dataframe(filtered_data)
+    # Display each job offer in a separate box
+    for _, row in filtered_data.iterrows():
+        st.write("----")
+        st.subheader(row['title'])
+        st.markdown(f"**Company:** {row['company_name']}")
+        if pd.notna(row["score"]):
+            st.markdown(f"**Certified Reputation!** **RSE:** {row['score']}, ranked N. **{int(row['rank'])}** in the word according to RepTrak (2023)")
+        st.markdown(f"**Location:** {row['location']}")
+        if pd.notna(row['technical_skills']):
+            st.markdown(f"**Skills:** {', '.join(eval(row['technical_skills']))}")
 
 # If in 'Skills per country' mode
 elif app_mode == "Skills per country":
