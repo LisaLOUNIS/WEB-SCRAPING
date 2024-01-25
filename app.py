@@ -2,40 +2,25 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
-@st.cache
+# Load data function
+@st.cache_resource
 def load_data():
     return pd.read_csv('jobs_data.csv')
 
 df = load_data()
 
-st.sidebar.header("Filters")
+# Sidebar for navigation
+st.sidebar.title("Navigation")
+app_mode = st.sidebar.radio("Choose the view", ["Filter offers", "Skills per country"])
 
-if st.sidebar.button("Reset filters"):
-    st.experimental_rerun()
-
-selected_country = st.sidebar.selectbox("Select nation: ", ['No filters'] + list(df['country'].unique()))
-selected_company = st.sidebar.selectbox("Select company: ", ['No filters'] + list(df['company_name'].unique()))
-unique_skills = list(set(skill for sublist in df['technical_skills'].dropna().apply(eval) for skill in sublist))
-selected_skill = st.sidebar.selectbox("Select skill: ", ['No filters'] + unique_skills)
-
-st.header("Filtered job offers")
-filtered_data = df
-if selected_country != 'No filters':
-    filtered_data = filtered_data[filtered_data['country'] == selected_country]
-st.dataframe(filtered_data)
-
-st.header("Skills Analysis by Nation")
-
-def plot_skill_distribution(data, country):
+# Function to plot skill distribution
+def plot_skill_distribution(data, title):
     skill_count = {}
     for _, row in data.iterrows():
         if pd.notna(row['technical_skills']):
             skills = eval(row['technical_skills'])
             for skill in skills:
-                if skill in skill_count:
-                    skill_count[skill] += 1
-                else:
-                    skill_count[skill] = 1
+                skill_count[skill] = skill_count.get(skill, 0) + 1
 
     top_skills = sorted(skill_count.items(), key=lambda x: x[1], reverse=True)[:10]
     top_skills_names = [skill[0] for skill in top_skills]
@@ -45,10 +30,44 @@ def plot_skill_distribution(data, country):
     plt.bar(top_skills_names, top_skills_counts)
     plt.xlabel('Skill')
     plt.ylabel('Frequency')
-    plt.title(f"Most Demanded Skills in {country}")
+    plt.title(title)
     plt.xticks(rotation=90)
     st.pyplot(plt)
 
-if selected_country != 'No filters':
-    plot_skill_distribution(df[df['country'] == selected_country], selected_country)
+# If in 'Filter offers' mode
+if app_mode == "Filter offers":
+    st.title("Filter Job Offers")
 
+    # Filters
+    st.sidebar.header("Filters")
+    if st.sidebar.button("Reset filters"):
+        st.experimental_rerun()
+
+    selected_country = st.sidebar.selectbox("Select nation: ", ['No filters'] + list(df['country'].unique()))
+    selected_company = st.sidebar.selectbox("Select company: ", ['No filters'] + list(df['company_name'].unique()))
+    unique_skills = list(set(skill for sublist in df['technical_skills'].dropna().apply(eval) for skill in sublist))
+    selected_skill = st.sidebar.selectbox("Select skill: ", ['No filters'] + unique_skills)
+
+    # Filtered data display
+    filtered_data = df
+    if selected_country != 'No filters':
+        filtered_data = filtered_data[filtered_data['country'] == selected_country]
+    if selected_company != 'No filters':
+        filtered_data = filtered_data[filtered_data['company_name'] == selected_company]
+    if selected_skill != 'No filters':
+        filtered_data = filtered_data[filtered_data['technical_skills'].apply(lambda x: selected_skill in eval(x) if pd.notna(x) else False)]
+
+    st.dataframe(filtered_data)
+
+# If in 'Skills per country' mode
+elif app_mode == "Skills per country":
+    st.title("Skills Analysis")
+
+    # Select country for skills analysis
+    selected_country_analysis = st.selectbox("Select nation for skills analysis: ", ['All Nations'] + list(df['country'].unique()))
+
+    # Display skill distribution plot
+    if selected_country_analysis == 'All Nations':
+        plot_skill_distribution(df, "Most Demanded Skills Across All Nations")
+    else:
+        plot_skill_distribution(df[df['country'] == selected_country_analysis], f"Most Demanded Skills in {selected_country_analysis}")
