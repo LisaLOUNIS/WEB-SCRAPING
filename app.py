@@ -44,21 +44,26 @@ def plot_skill_distribution(data, title):
     st.pyplot(plt)
 
 def plot_rse_score(data):
-    # Filtrer les données pour les lignes avec des scores RSE disponibles
     rse_data = data.dropna(subset=['score'])
-
-    # Trier les données par score RSE en ordre décroissant
     rse_data_sorted = rse_data.sort_values(by='score', ascending=False)
 
-    # Créer un graphique à barres des scores RSE avec une taille plus grande
-    plt.figure(figsize=(10,20 ))  # Augmenter la taille du graphique
-    plt.bar(rse_data_sorted['company_name'], rse_data_sorted['score'], color='skyblue')
-    plt.xlabel('Entreprise', fontsize=50)
-    plt.ylabel('Score RSE', fontsize=50)
-    plt.title('Scores RSE des Entreprises', fontsize=50)
-    plt.xticks(rotation=45, ha='right', fontsize=40)
-    plt.yticks(fontsize=40)
-    plt.tight_layout()
+    # Appliquer un style de graphique
+    plt.style.use('ggplot')
+
+    # Augmenter la taille du graphique
+    plt.figure(figsize=(25, 12))
+
+    # Ajuster l'espacement des barres
+    plt.bar(rse_data_sorted['company_name'], rse_data_sorted['score'], color='skyblue', width=0.6)
+
+    # Améliorer la lisibilité des étiquettes et du titre
+    plt.xlabel('Entreprise', fontsize=16)
+    plt.ylabel('Score RSE', fontsize=16)
+    plt.title('Scores RSE des Entreprises', fontsize=20)
+    plt.xticks(rotation=45, ha='right', fontsize=14)
+    plt.yticks(fontsize=14)
+
+    plt.tight_layout()  # Ajuster automatiquement le layout
     st.pyplot(plt)
 
 
