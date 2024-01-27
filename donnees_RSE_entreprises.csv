@@ -1,0 +1,129 @@
+Secteur,Rang Secteur,Nom de l'Entreprise,Score Final,Rang Total,Score Environnement,Score Social,Score Gouvernance
+assurances,1,Generali,77.7,44,78.3,80.4,74.4
+assurances,2,Axa,77.1,55,89.9,71.4,70
+assurances,3,Groupe Matmut,74.1,98,75.4,84.1,62.9
+assurances,4,Covéa Group,72.8,113,82.6,65.3,70.5
+assurances,5,Malakoff Humanis,71.6,124,56.9,83.8,74.2
+assurances,6,AG2R La Mondiale,70.3,142,67.7,76.3,66.9
+assurances,7,Scor,69.9,146,75.9,69.6,64.3
+assurances,8,Allianz,67.7,170,64.2,62.3,76.5
+assurances,9,Macif,64.1,202,57.5,77.5,57.2
+assurances,10,Groupama,63.4,213,48,75.5,66.7
+assurances,11,Groupe VYV (Harmonie Mutuelle),62.5,232,57.9,56.2,73.3
+assurances,12,SwissLife,61.2,247,81.7,55.2,46.7
+automobile,1,Renault,82.4,16,80.6,84,82.5
+automobile,2,Plastic Omnium,81.9,19,74.5,78.9,92.3
+automobile,3,Stellantis,81.1,23,78.9,84.6,79.9
+automobile,4,Groupe Bosch,80.5,26,78.3,80.5,82.6
+automobile,5,Faurecia,77.4,50,75.9,79.1,77.4
+automobile,6,Michelin,76.6,66,60.2,78.5,91
+automobile,7,BMW,76.2,69,83.1,74.5,70.9
+automobile,8,Valeo,74.7,89,74.6,68,81.6
+automobile,9,Sogefi Group,73.4,105,69.5,68.2,82.5
+automobile,10,Mercedes-Benz (Daimler Group),72.5,115,80.2,63.4,74
+automobile,11,Schaeffler,69.7,151,69.9,70.6,68.6
+automobile,12,Continental,68,163,70.2,51.7,82.1
+automobile,13,Volkswagen Group,66.9,174,67.5,66.4,66.9
+automobile,14,John Deere,66,181,73.9,71.2,52.8
+automobile,15,Trigano,65.3,186,66.3,56.1,73.6
+btp-et-construction,1,Groupe Eiffage,72.9,112,64.7,78.4,75.4
+btp-et-construction,2,Vinci Group,72.4,117,69.1,68.4,79.7
+btp-et-construction,3,Bouygues,71.6,125,61.9,76.6,76.4
+btp-et-construction,4,NGE,71,133,66.6,71.2,75.3
+btp-et-construction,5,Spie,67.5,172,61.4,67.6,73.4
+btp-et-construction,6,Léon Grosse,63.1,221,49.2,63.7,76.6
+btp-et-construction,1,Groupe Eiffage,72.9,112,64.7,78.4,75.4
+btp-et-construction,2,Vinci Group,72.4,117,69.1,68.4,79.7
+btp-et-construction,3,Bouygues,71.6,125,61.9,76.6,76.4
+btp-et-construction,4,NGE,71,133,66.6,71.2,75.3
+btp-et-construction,5,Spie,67.5,172,61.4,67.6,73.4
+btp-et-construction,6,Léon Grosse,63.1,221,49.2,63.7,76.6
+banques-et-services-financiers,1,BNP Paribas,84.3,7,88.3,81.5,83.1
+banques-et-services-financiers,2,Edenred,82.6,14,90,78,79.8
+banques-et-services-financiers,3,Amundi,81.6,20,85.8,83.1,75.9
+banques-et-services-financiers,4,Worldline,81.4,22,89.8,72.2,82.1
+banques-et-services-financiers,5,Crédit agricole,80.9,24,82.7,76.2,83.8
+banques-et-services-financiers,6,Société générale,79.4,32,82.2,71.5,84.5
+banques-et-services-financiers,7,Groupe BPCE,77,57,70.5,75.2,85.3
+banques-et-services-financiers,8,Bpifrance,76.6,64,67.4,85.4,77.1
+banques-et-services-financiers,9,Crédit mutuel,75.3,79,74.4,83.8,67.7
+banques-et-services-financiers,10,CIC,75.1,85,85.5,82.8,56.9
+banques-et-services-financiers,11,Caisse des dépôts,73.9,101,77.8,57.2,86.6
+banques-et-services-financiers,12,American Express,61.9,236,90.8,53.3,41.5
+commerce-distribution,1,Rexel,80.3,27,79,76.7,85.1
+commerce-distribution,2,Groupe Carrefour,79.8,28,81.8,72.1,85.4
+commerce-distribution,3,Maisons du monde,77.8,43,79.6,71.5,82.3
+commerce-distribution,4,Logista,75.4,76,85.5,69.9,71
+commerce-distribution,5,Fnac Darty,72.9,111,62,76.2,80.4
+commerce-distribution,6,Veepee,72.6,114,80.2,72.8,64.8
+commerce-distribution,7,Metro AG,72.3,120,72.6,76.7,67.7
+commerce-distribution,8,Amplifon,70.5,139,80.3,61.2,70
+commerce-distribution,9,Casino Group,69.1,155,62.6,70.9,73.9
+commerce-distribution,10,Téréva,68.7,158,75.6,75.4,55.1
+commerce-distribution,11,Groupe LDLC,68.5,159,52.5,69.7,83.4
+commerce-distribution,12,Raja,67.7,168,64.2,66.5,72.4
+commerce-distribution,13,Auchan Retail (groupe Elo),64.3,196,52.1,75,65.8
+commerce-distribution,14,Bergerat Monnoyeur (Groupe Monnoyeur),63.3,217,57.5,70.1,62.3
+commerce-distribution,15,Samse,62.8,227,57.1,55.3,76.1
+commerce-distribution,16,Loxam,61.4,245,60.2,56.6,67.4
+construction-aeronautique-ferroviaire-navale-et-autres-vehicules,1,Thales,84.9,6,87.6,79.2,87.9
+construction-aeronautique-ferroviaire-navale-et-autres-vehicules,2,Safran,77.1,56,74.4,78.4,78.4
+construction-aeronautique-ferroviaire-navale-et-autres-vehicules,3,Manitou,76.2,70,69.8,78,80.7
+construction-aeronautique-ferroviaire-navale-et-autres-vehicules,4,Dassault Aviation,75.2,82,80.9,73.2,71.5
+construction-aeronautique-ferroviaire-navale-et-autres-vehicules,5,Airbus,74.3,93,84.7,70.1,68.2
+construction-aeronautique-ferroviaire-navale-et-autres-vehicules,6,Alstom,70.2,144,82.2,62.9,65.6
+construction-aeronautique-ferroviaire-navale-et-autres-vehicules,7,Groupe Latécoère,68,164,63.7,59.8,80.3
+construction-aeronautique-ferroviaire-navale-et-autres-vehicules,8,Groupe Lisi,66.9,175,65.3,67.6,67.7
+construction-aeronautique-ferroviaire-navale-et-autres-vehicules,9,Naval Group,63.3,216,47.3,69,73.8
+construction-aeronautique-ferroviaire-navale-et-autres-vehicules,10,Figeac Aero,63.3,218,72,53.4,64.4
+construction-aeronautique-ferroviaire-navale-et-autres-vehicules,11,Derichebourg,62.3,234,45.8,71.9,69.1
+habillement-et-accessoires,1,Kering,83.3,11,87.4,72.7,89.8
+habillement-et-accessoires,2,LVMH,77.6,46,80.8,75.5,76.4
+habillement-et-accessoires,3,Hermès,77.4,51,86.6,62.9,82.7
+habillement-et-accessoires,4,EssilorLuxottica,76.6,63,66.8,72.9,90.3
+habillement-et-accessoires,5,Damartex Group (Damart),70.4,141,55.5,73.7,81.9
+habillement-et-accessoires,6,Adidas,64.4,195,82.2,44.1,66.9
+hotellerie-restauration-loisirs,1,Française des jeux,83.5,8,73.9,85.9,90.8
+hotellerie-restauration-loisirs,2,Sodexo,78.9,37,69.9,78.5,88.1
+hotellerie-restauration-loisirs,3,Accor,72.4,118,62.5,78.5,76.3
+hotellerie-restauration-loisirs,4,Groupe Elior,69.7,152,64.3,73.9,70.9
+hotellerie-restauration-loisirs,5,Pierre & Vacances-Center Parcs,66.8,176,64.8,76,59.7
+hotellerie-restauration-loisirs,6,API Restauration,62.9,226,56.2,75.4,57.1
+it-informatique-et-telecommunications,1,Sopra Steria Group,87.1,2,87.9,82.8,90.6
+it-informatique-et-telecommunications,2,Atos,81.6,21,83.5,80.1,81.1
+it-informatique-et-telecommunications,3,Eutelsat,79,35,80.3,70.2,86.6
+it-informatique-et-telecommunications,4,SAP,76.8,59,77.7,63,89.7
+it-informatique-et-telecommunications,5,Infotel,76.8,60,72.5,79.6,78.2
+it-informatique-et-telecommunications,6,Capgemini,76.7,62,82.9,67.6,79.6
+it-informatique-et-telecommunications,7,Nokia,76.1,72,81.5,74.3,72.4
+it-informatique-et-telecommunications,8,Amadeus,74.8,88,87.6,67.9,68.9
+it-informatique-et-telecommunications,9,Dassault Systèmes,72.5,116,61.7,84.5,71.4
+it-informatique-et-telecommunications,10,Accenture,72.2,121,89.7,55.8,71
+it-informatique-et-telecommunications,11,Iliad,71.1,131,65.8,72.7,74.9
+it-informatique-et-telecommunications,12,HP Inc.,70.7,136,87.8,52.5,71.8
+it-informatique-et-telecommunications,13,Ubisoft,69.6,154,52.3,73.3,83.3
+it-informatique-et-telecommunications,14,Keyrus,68.7,157,61.5,73.7,70.8
+it-informatique-et-telecommunications,15,Ericsson,65.8,183,81.4,68.5,47.4
+it-informatique-et-telecommunications,16,Groupe Aubay,65.5,185,39.4,82.9,74
+it-informatique-et-telecommunications,17,SQLI,63.6,209,36.4,82.4,71.9
+it-informatique-et-telecommunications,18,Orange,63.4,215,54.5,56.8,78.7
+it-informatique-et-telecommunications,19,SAS,63,223,53.1,62.8,73.3
+it-informatique-et-telecommunications,20,Cegedim,62.6,231,43.8,68.9,75
+it-informatique-et-telecommunications,21,Umanis,62.1,235,50.4,68.5,67.5
+it-informatique-et-telecommunications,22,Econocom,61.8,238,52.1,58.1,75.2
+immobilier,1,Icade,85.3,4,80.5,86.7,88.6
+immobilier,2,Kaufman & Broad,76.4,67,78.8,75.7,74.7
+immobilier,3,Altarea,74.4,92,80.2,75.6,67.4
+immobilier,4,Nexity,74.2,96,75.1,74,73.4
+immobilier,5,Unibail-Rodamco-Westfield,74.1,99,67.9,71.3,83.1
+immobilier,6,Klépierre,67.4,173,67.9,52.1,82.2
+immobilier,7,CBRE,60.9,249,60,59.5,63.2
+industrie-chimique,1,Air Liquide,82.5,15,74.4,83.4,89.7
+industrie-chimique,2,Arkema,76.1,71,64.6,74.3,89.4
+industrie-chimique,3,Bayer,75.2,84,67.1,74.9,83.6
+industrie-chimique,4,TotalEnergies,75,87,62.4,76.2,86.3
+industrie-chimique,5,Solvay,71.7,123,61.6,74.7,78.8
+industrie-chimique,6,BASF,71.1,132,68.4,61,83.9
+industrie-chimique,7,AkzoNobel,68.3,160,74.8,51.8,78.2
+industrie-chimique,8,Adisseo,63.1,222,61.1,61.5,66.6
+industrie-chimique,9,3M,62.7,228,69.4,53.5,65.2
