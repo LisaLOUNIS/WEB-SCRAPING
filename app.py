@@ -70,28 +70,26 @@ def plot_rse_score(data):
     st.pyplot(plt)
 
 
-def plot_sector_rse_graph(df_rse, selected_sector):
-    # Trouver la couleur correspondante au secteur sélectionné
-    sectors = df_rse['Secteur'].unique()
-    color_index = list(sectors).index(selected_sector)
-    color = plt.cm.viridis(np.linspace(0, 1, len(sectors)))[color_index]
+def plot_sector_rse_graph(df_rse, selected_sector, score_type):
+    color = plt.cm.viridis(0.5)  # Couleur fixe pour la visualisation
 
-    # Filtrer les données pour le secteur sélectionné
+    # Filtrer les données pour le secteur et le type de score sélectionnés
     sector_data = df_rse[df_rse['Secteur'] == selected_sector]
 
-    # Trier les entreprises par 'Score Final' dans le secteur
-    sector_data_sorted = sector_data.sort_values(by='Score Final', ascending=False)
+    # Trier les entreprises par le type de score RSE sélectionné
+    sector_data_sorted = sector_data.sort_values(by=score_type, ascending=False)
 
-    # Créer une figure et un axe pour Matplotlib
+    # Créer une figure pour Matplotlib
     fig, ax = plt.subplots(figsize=(10, 6))
-    ax.bar(sector_data_sorted['Nom de l\'Entreprise'], sector_data_sorted['Score Final'], color=color)
+    ax.bar(sector_data_sorted['Nom de l\'Entreprise'], sector_data_sorted[score_type], color=color)
     ax.set_xlabel('Entreprise', fontsize=12)
-    ax.set_ylabel('Score RSE', fontsize=12)
-    ax.set_title(f'Score RSE des Entreprises dans le Secteur {selected_sector}', fontsize=14)
+    ax.set_ylabel(score_type, fontsize=12)
+    ax.set_title(f'{score_type} des Entreprises dans le Secteur {selected_sector}', fontsize=14)
     plt.xticks(rotation=45, ha='right')
     plt.tight_layout()
 
     return fig
+
 # If in 'Filter offers' mode
 if app_mode == "Filter offers":
     st.title("Filter Job Offers")
@@ -163,12 +161,17 @@ elif app_mode == "RSE Score Analysis":
 
 elif app_mode == "Top Companies by Sector":
     st.title("Top Companies by Sector in RSE")
-    # Charger les données RSE
-    df_rse = pd.read_csv('donnees_RSE_entreprises.csv')
-    # Laisser l'utilisateur choisir le secteur à visualiser
+
+    # Sélecteur de secteur
     sectors = df_rse['Secteur'].unique()
     selected_sector = st.selectbox("Choose a sector to view", sectors)
-    # Appeler la fonction pour obtenir le graphique du secteur sélectionné
-    fig = plot_sector_rse_graph(df_rse, selected_sector)
+
+    # Sélecteur de type de score RSE
+    score_types = ['Score Environnement', 'Score Social', 'Score Gouvernance']
+    selected_score_type = st.selectbox("Choose a score type to view", score_types)
+
+    # Appeler la fonction pour obtenir le graphique
+    fig = plot_sector_rse_graph(df_rse, selected_sector, selected_score_type)
+
     # Afficher le graphique dans Streamlit
     st.pyplot(fig)
