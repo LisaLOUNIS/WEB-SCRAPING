@@ -73,11 +73,19 @@ if app_mode == "Filter offers":
         st.write("----")
         st.subheader(row['title'])
         st.markdown(f"**Company:** {row['company_name']}")
-        if pd.notna(row["score"]):
-            st.markdown(f"**Certified Reputation!** **RSE:** {row['score']}, ranked N. **{int(row['rank'])}** in the word according to RepTrak (2023)")
+
+        # Gérer les valeurs NaN pour 'score' et 'rank'
+        score = row['score']
+        rank = row['rank']
+        if pd.notna(score) and pd.notna(rank):
+            st.markdown(f"**Certified Reputation!** **RSE:** {score}, ranked N. **{int(rank)}** in the word according to RepTrak (2023)")
+        elif pd.notna(score):
+            st.markdown(f"**Certified Reputation!** **RSE:** {score}")
+
         st.markdown(f"**Location:** {row['location']}")
         if pd.notna(row['technical_skills']):
             st.markdown(f"**Skills:** {', '.join(eval(row['technical_skills']))}")
+
 
 # If in 'Skills per country' mode
 elif app_mode == "Skills per country":
