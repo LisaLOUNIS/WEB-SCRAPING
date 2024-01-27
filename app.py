@@ -70,8 +70,12 @@ def plot_rse_score(data):
     st.pyplot(plt)
 
 
-def plot_sector_rse_graph(df_rse, selected_sector, score_type):
-    color = plt.cm.viridis(0.5)  # Couleur fixe pour la visualisation
+def plot_sector_rse_graph_with_colors(df_rse, selected_sector, score_type):
+    # Assigner une couleur unique pour chaque secteur
+    sectors = df_rse['Secteur'].unique()
+    color_map = plt.cm.get_cmap('viridis', len(sectors))
+    sector_index = np.where(sectors == selected_sector)[0][0]
+    sector_color = color_map(sector_index)
 
     # Filtrer les données pour le secteur et le type de score sélectionnés
     sector_data = df_rse[df_rse['Secteur'] == selected_sector]
@@ -81,7 +85,7 @@ def plot_sector_rse_graph(df_rse, selected_sector, score_type):
 
     # Créer une figure pour Matplotlib
     fig, ax = plt.subplots(figsize=(10, 6))
-    ax.bar(sector_data_sorted['Nom de l\'Entreprise'], sector_data_sorted[score_type], color=color)
+    ax.bar(sector_data_sorted['Nom de l\'Entreprise'], sector_data_sorted[score_type], color=sector_color)
     ax.set_xlabel('Entreprise', fontsize=12)
     ax.set_ylabel(score_type, fontsize=12)
     ax.set_title(f'{score_type} des Entreprises dans le Secteur {selected_sector}', fontsize=14)
@@ -170,8 +174,8 @@ elif app_mode == "Top Companies by Sector":
     score_types = ['Score Environnement', 'Score Social', 'Score Gouvernance']
     selected_score_type = st.selectbox("Choose a score type to view", score_types)
 
-    # Appeler la fonction pour obtenir le graphique
-    fig = plot_sector_rse_graph(df_rse, selected_sector, selected_score_type)
+    # Appeler la fonction pour obtenir le graphique avec des couleurs uniques par secteur
+    fig = plot_sector_rse_graph_with_colors(df_rse, selected_sector, selected_score_type)
 
     # Afficher le graphique dans Streamlit
     st.pyplot(fig)
