@@ -166,6 +166,7 @@ elif app_mode == "RSE Score Analysis":
     plot_rse_score(df)
 
 elif app_mode == "Top Companies by Sector":
+    df_rse = pd.read_csv('donnees_RSE_entreprises.csv')
     st.title("Top Companies by Sector in RSE")
     plot_top_companies_by_sector_with_colors(df_rse)
 
