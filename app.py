@@ -5,9 +5,15 @@ import matplotlib.pyplot as plt
 # Load data function
 @st.cache_resource
 def load_data():
-    return pd.read_csv('jobs_data.csv')
+    jobs_data = pd.read_csv('jobs_data.csv')
+    data_avec_rse = pd.read_csv('donnees_octoparser_avec_rse_score.csv')
+    data_sans_rse = pd.read_csv('donnees_octoparser_sans_rse_score.csv')
 
-df = load_data()
+    # Concaténer les DataFrames
+    data_jobs= pd.concat([jobs_data, data_avec_rse, data_sans_rse], ignore_index=True)
+
+    return data_jobs
+data_jobs = load_data()
 
 # Sidebar for navigation
 st.sidebar.title("Navigation")
