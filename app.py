@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
+import numpy as np
 
 # Load data function
 @st.cache_resource
@@ -8,19 +9,21 @@ def load_data():
     jobs_data = pd.read_csv('jobs_data.csv')
     data_avec_rse = pd.read_csv('donnees_octoparser_avec_rse_score.csv')
     data_sans_rse = pd.read_csv('donnees_octoparser_sans_rse_score.csv')
-
+    rse_entreprises = pd.read_csv('donnees_RSE_entreprises.csv')
     # Concaténer les DataFrames
     data_jobs= pd.concat([jobs_data, data_avec_rse, data_sans_rse], ignore_index=True)
 
-    return data_jobs
+    return data_jobs,rse_entreprises
 
 
-df = load_data()
+df, df_rse = load_data()
 
 # Sidebar for navigation
 st.sidebar.title("Navigation")
-app_mode = st.sidebar.radio("Choose the view", ["Filter offers", "Skills per country", "RSE Score Analysis"])
-
+app_mode = st.sidebar.radio(
+    "Choose the view", 
+    ["Filter offers", "Skills per country", "RSE Score Analysis", "Top Companies by Sector"]
+)
 
 # Function to plot skill distribution
 def plot_skill_distribution(data, title):
@@ -67,7 +70,29 @@ def plot_rse_score(data):
     st.pyplot(plt)
 
 
+def plot_top_companies_by_sector_with_colors(df_rse):
+    # Séparer les données par secteur
+    sectors = df_rse['Secteur'].unique()
+    colors = plt.cm.viridis(np.linspace(0, 1, len(sectors)))  # Palette de couleurs
 
+    # Créer un graphique pour chaque secteur avec des couleurs différentes
+    for sector, color in zip(sectors, colors):
+        sector_data = df_rse[df_rse['Secteur'] == sector]
+
+        # Trier les entreprises par 'Score Final' dans le secteur
+        sector_data_sorted = sector_data.sort_values(by='Score Final', ascending=False)
+
+        # Créer un graphique à barres pour le secteur
+        plt.figure(figsize=(10, 6))
+        plt.bar(sector_data_sorted['Nom de l\'Entreprise'], sector_data_sorted['Score Final'], color=color)
+        plt.xlabel('Entreprise', fontsize=12)
+        plt.ylabel('Score RSE', fontsize=12)
+        plt.title(f'Score RSE des Entreprises dans le Secteur {sector}', fontsize=14)
+        plt.xticks(rotation=45, ha='right')
+        plt.tight_layout()
+
+        # Afficher le graphique
+        plt.show()
 
 
 
@@ -139,4 +164,8 @@ elif app_mode == "Skills per country":
 elif app_mode == "RSE Score Analysis":
     st.title("RSE Score Analysis")
     plot_rse_score(df)
+
+elif app_mode == "Top Companies by Sector":
+    st.title("Top Companies by Sector in RSE")
+    plot_top_companies_by_sector_with_colors(df_rse)
 
