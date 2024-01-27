@@ -170,7 +170,7 @@ elif app_mode == "Top Companies by Sector":
     st.title("Top Companies by Sector in RSE")
     plot_top_companies_by_sector_with_colors(df_rse)
 
-if app_mode == "Test Graph":
+elif app_mode == "Test Graph":
     st.title("Test Graph")
     plt.figure(figsize=(10, 5))
     plt.bar(['A', 'B', 'C'], [1, 2, 3])
