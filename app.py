@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
+import atplotlib.pyplot as plt
 
 # Load data function
 @st.cache_resource
