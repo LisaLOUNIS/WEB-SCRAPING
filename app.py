@@ -82,17 +82,16 @@ def plot_sector_rse_graph(df_rse, selected_sector):
     # Trier les entreprises par 'Score Final' dans le secteur
     sector_data_sorted = sector_data.sort_values(by='Score Final', ascending=False)
 
-    # Créer un graphique à barres pour le secteur sélectionné
-    plt.figure(figsize=(10, 6))
-    plt.bar(sector_data_sorted['Nom de l\'Entreprise'], sector_data_sorted['Score Final'], color=color)
-    plt.xlabel('Entreprise', fontsize=12)
-    plt.ylabel('Score RSE', fontsize=12)
-    plt.title(f'Score RSE des Entreprises dans le Secteur {selected_sector}', fontsize=14)
+    # Créer une figure et un axe pour Matplotlib
+    fig, ax = plt.subplots(figsize=(10, 6))
+    ax.bar(sector_data_sorted['Nom de l\'Entreprise'], sector_data_sorted['Score Final'], color=color)
+    ax.set_xlabel('Entreprise', fontsize=12)
+    ax.set_ylabel('Score RSE', fontsize=12)
+    ax.set_title(f'Score RSE des Entreprises dans le Secteur {selected_sector}', fontsize=14)
     plt.xticks(rotation=45, ha='right')
     plt.tight_layout()
-    # Afficher le graphique
-    st.pyplot()
 
+    return fig
 # If in 'Filter offers' mode
 if app_mode == "Filter offers":
     st.title("Filter Job Offers")
@@ -164,8 +163,12 @@ elif app_mode == "RSE Score Analysis":
 
 elif app_mode == "Top Companies by Sector":
     st.title("Top Companies by Sector in RSE")
+    # Charger les données RSE
+    df_rse = pd.read_csv('donnees_RSE_entreprises.csv')
     # Laisser l'utilisateur choisir le secteur à visualiser
     sectors = df_rse['Secteur'].unique()
     selected_sector = st.selectbox("Choose a sector to view", sectors)
-    # Appeler la fonction pour afficher le graphique du secteur sélectionné
-    plot_sector_rse_graph(df_rse, selected_sector)
+    # Appeler la fonction pour obtenir le graphique du secteur sélectionné
+    fig = plot_sector_rse_graph(df_rse, selected_sector)
+    # Afficher le graphique dans Streamlit
+    st.pyplot(fig)
