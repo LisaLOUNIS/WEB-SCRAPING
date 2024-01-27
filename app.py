@@ -51,13 +51,13 @@ def plot_rse_score(data):
     rse_data_sorted = rse_data.sort_values(by='score', ascending=False)
 
     # Créer un graphique à barres des scores RSE avec une taille plus grande
-    plt.figure(figsize=(40, 30))  # Augmenter la taille du graphique
+    plt.figure(figsize=(40, 40))  # Augmenter la taille du graphique
     plt.bar(rse_data_sorted['company_name'], rse_data_sorted['score'], color='skyblue')
-    plt.xlabel('Entreprise', fontsize=30)
-    plt.ylabel('Score RSE', fontsize=30)
-    plt.title('Scores RSE des Entreprises', fontsize=30)
-    plt.xticks(rotation=45, ha='right', fontsize=20)
-    plt.yticks(fontsize=20)
+    plt.xlabel('Entreprise', fontsize=50)
+    plt.ylabel('Score RSE', fontsize=50)
+    plt.title('Scores RSE des Entreprises', fontsize=50)
+    plt.xticks(rotation=45, ha='right', fontsize=40)
+    plt.yticks(fontsize=40)
     plt.tight_layout()
     st.pyplot(plt)
 
