@@ -101,7 +101,11 @@ if app_mode == "Filter offers":
     for _, row in filtered_data.iterrows():
         st.write("----")
         st.subheader(row['title'])
-        st.markdown(f"**Company:** {row['company_name']}")
+        # Ajouter un logo ou un texte pour les entreprises dans le top 100
+        if row['company_name'] in top_100_rse:
+            st.markdown(f"**Company:** {row['company_name']} :star:")  # Utiliser une icône ou une image
+        else:
+            st.markdown(f"**Company:** {row['company_name']}")
 
         # Gérer les valeurs NaN pour 'score' et 'rank'
         score = row['score']
