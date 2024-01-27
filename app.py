@@ -97,11 +97,14 @@ if app_mode == "Filter offers":
     if show_ranked_only:
         filtered_data = filtered_data[filtered_data['rank'].notna()]
 
+    # Identifier les entreprises du top 100
+    top_100_rse = df.dropna(subset=['score']).sort_values(by='score', ascending=False).head(100)['company_name'].unique()
     # Display each job offer in a separate box
     for _, row in filtered_data.iterrows():
         st.write("----")
         st.subheader(row['title'])
         # Ajouter un logo ou un texte pour les entreprises dans le top 100
+
         if row['company_name'] in top_100_rse:
             st.markdown(f"**Company:** {row['company_name']} :star:")  # Utiliser une icône ou une image
         else:
