@@ -70,31 +70,28 @@ def plot_rse_score(data):
     st.pyplot(plt)
 
 
-def plot_top_companies_by_sector_with_colors(df_rse):
-    # Séparer les données par secteur
+def plot_sector_rse_graph(df_rse, selected_sector):
+    # Trouver la couleur correspondante au secteur sélectionné
     sectors = df_rse['Secteur'].unique()
-    colors = plt.cm.viridis(np.linspace(0, 1, len(sectors)))  # Palette de couleurs
+    color_index = list(sectors).index(selected_sector)
+    color = plt.cm.viridis(np.linspace(0, 1, len(sectors)))[color_index]
 
-    # Créer un graphique pour chaque secteur avec des couleurs différentes
-    for sector, color in zip(sectors, colors):
-        sector_data = df_rse[df_rse['Secteur'] == sector]
+    # Filtrer les données pour le secteur sélectionné
+    sector_data = df_rse[df_rse['Secteur'] == selected_sector]
 
-        # Trier les entreprises par 'Score Final' dans le secteur
-        sector_data_sorted = sector_data.sort_values(by='Score Final', ascending=False)
+    # Trier les entreprises par 'Score Final' dans le secteur
+    sector_data_sorted = sector_data.sort_values(by='Score Final', ascending=False)
 
-        # Créer un graphique à barres pour le secteur
-        plt.figure(figsize=(10, 6))
-        plt.bar(sector_data_sorted['Nom de l\'Entreprise'], sector_data_sorted['Score Final'], color=color)
-        plt.xlabel('Entreprise', fontsize=12)
-        plt.ylabel('Score RSE', fontsize=12)
-        plt.title(f'Score RSE des Entreprises dans le Secteur {sector}', fontsize=14)
-        plt.xticks(rotation=45, ha='right')
-        plt.tight_layout()
-
-        # Afficher le graphique
-        plt.show()
-
-
+    # Créer un graphique à barres pour le secteur sélectionné
+    plt.figure(figsize=(10, 6))
+    plt.bar(sector_data_sorted['Nom de l\'Entreprise'], sector_data_sorted['Score Final'], color=color)
+    plt.xlabel('Entreprise', fontsize=12)
+    plt.ylabel('Score RSE', fontsize=12)
+    plt.title(f'Score RSE des Entreprises dans le Secteur {selected_sector}', fontsize=14)
+    plt.xticks(rotation=45, ha='right')
+    plt.tight_layout()
+    # Afficher le graphique
+    st.pyplot()
 
 # If in 'Filter offers' mode
 if app_mode == "Filter offers":
@@ -171,4 +168,4 @@ elif app_mode == "Top Companies by Sector":
     sectors = df_rse['Secteur'].unique()
     selected_sector = st.selectbox("Choose a sector to view", sectors)
     # Appeler la fonction pour afficher le graphique du secteur sélectionné
-    plot_top_companies_by_sector_with_colors(df_rse, selected_sector)
+    plot_sector_rse_graph(df_rse, selected_sector)
