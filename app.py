@@ -167,5 +167,5 @@ elif app_mode == "RSE Score Analysis":
 
 elif app_mode == "Top Companies by Sector":
     st.title("Top Companies by Sector in RSE")
-    plot_top_companies_by_sector_with_colors(df_rse)
+    plot_top_companies_by_sector_with_colors( rse_entreprises)
 
