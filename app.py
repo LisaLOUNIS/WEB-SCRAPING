@@ -13,7 +13,6 @@ def load_data():
     data_jobs= pd.concat([jobs_data, data_avec_rse, data_sans_rse], ignore_index=True)
 
     return data_jobs
-data_jobs = load_data()
 
 # Sidebar for navigation
 st.sidebar.title("Navigation")
