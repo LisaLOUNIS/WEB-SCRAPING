@@ -50,21 +50,22 @@ def plot_rse_score(data):
     # Appliquer un style de graphique
     plt.style.use('ggplot')
 
-    # Augmenter la taille du graphique
-    plt.figure(figsize=(25, 12))
+    # Augmenter significativement la taille du graphique
+    plt.figure(figsize=(30, 15))  # Taille très grande pour une page web
 
     # Ajuster l'espacement des barres
     plt.bar(rse_data_sorted['company_name'], rse_data_sorted['score'], color='skyblue', width=0.6)
 
-    # Améliorer la lisibilité des étiquettes et du titre
-    plt.xlabel('Entreprise', fontsize=16)
-    plt.ylabel('Score RSE', fontsize=16)
-    plt.title('Scores RSE des Entreprises', fontsize=20)
-    plt.xticks(rotation=45, ha='right', fontsize=14)
-    plt.yticks(fontsize=14)
+    # Augmenter la taille des polices pour améliorer la lisibilité
+    plt.xlabel('Entreprise', fontsize=18)
+    plt.ylabel('Score RSE', fontsize=18)
+    plt.title('Scores RSE des Entreprises', fontsize=22)
+    plt.xticks(rotation=45, ha='right', fontsize=16)
+    plt.yticks(fontsize=16)
 
-    plt.tight_layout()  # Ajuster automatiquement le layout
+    plt.tight_layout()  # Ajustement automatique
     st.pyplot(plt)
+
 
 
 
