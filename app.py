@@ -19,7 +19,8 @@ df = load_data()
 
 # Sidebar for navigation
 st.sidebar.title("Navigation")
-app_mode = st.sidebar.radio("Choose the view", ["Filter offers", "Skills per country"])
+app_mode = st.sidebar.radio("Choose the view", ["Filter offers", "Skills per country", "RSE Score Analysis"])
+
 
 # Function to plot skill distribution
 def plot_skill_distribution(data, title):
@@ -41,6 +42,21 @@ def plot_skill_distribution(data, title):
     plt.title(title)
     plt.xticks(rotation=90)
     st.pyplot(plt)
+
+def plot_rse_score(data):
+    # Filtrer les données pour les lignes avec des scores RSE disponibles
+    rse_data = data.dropna(subset=['score'])
+
+    # Créer un graphique à barres des scores RSE
+    plt.figure(figsize=(10, 5))
+    plt.bar(rse_data['company_name'], rse_data['score'])
+    plt.xlabel('Entreprise')
+    plt.ylabel('Score RSE')
+    plt.title('Scores RSE des Entreprises')
+    plt.xticks(rotation=90)
+    st.pyplot(plt)
+
+
 
 # If in 'Filter offers' mode
 if app_mode == "Filter offers":
@@ -100,4 +116,7 @@ elif app_mode == "Skills per country":
     else:
         plot_skill_distribution(df[df['country'] == selected_country_analysis], f"Most Demanded Skills in {selected_country_analysis}")
 
+elif app_mode == "RSE Score Analysis":
+    st.title("RSE Score Analysis")
+    plot_rse_score(df)
 
