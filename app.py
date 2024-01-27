@@ -166,13 +166,9 @@ elif app_mode == "RSE Score Analysis":
     plot_rse_score(df)
 
 elif app_mode == "Top Companies by Sector":
-    df_rse = pd.read_csv('donnees_RSE_entreprises.csv')
     st.title("Top Companies by Sector in RSE")
-    plot_top_companies_by_sector_with_colors(df_rse)
-
-elif app_mode == "Test Graph":
-    st.title("Test Graph")
-    plt.figure(figsize=(10, 5))
-    plt.bar(['A', 'B', 'C'], [1, 2, 3])
-    plt.title("Simple Test Graph")
-    st.pyplot()
+    # Laisser l'utilisateur choisir le secteur à visualiser
+    sectors = df_rse['Secteur'].unique()
+    selected_sector = st.selectbox("Choose a sector to view", sectors)
+    # Appeler la fonction pour afficher le graphique du secteur sélectionné
+    plot_top_companies_by_sector_with_colors(df_rse, selected_sector)
