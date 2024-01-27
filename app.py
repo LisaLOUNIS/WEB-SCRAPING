@@ -47,14 +47,20 @@ def plot_rse_score(data):
     # Filtrer les données pour les lignes avec des scores RSE disponibles
     rse_data = data.dropna(subset=['score'])
 
+    # Trier les données par score RSE en ordre décroissant
+    rse_data_sorted = rse_data.sort_values(by='score', ascending=False)
+
     # Créer un graphique à barres des scores RSE
-    plt.figure(figsize=(10, 5))
-    plt.bar(rse_data['company_name'], rse_data['score'])
-    plt.xlabel('Entreprise')
-    plt.ylabel('Score RSE')
-    plt.title('Scores RSE des Entreprises')
-    plt.xticks(rotation=90)
+    plt.figure(figsize=(15, 8))  # Ajuster la taille pour une meilleure visibilité
+    plt.bar(rse_data_sorted['company_name'], rse_data_sorted['score'], color='skyblue')  # Choisir une couleur
+    plt.xlabel('Entreprise', fontsize=12)
+    plt.ylabel('Score RSE', fontsize=12)
+    plt.title('Scores RSE des Entreprises', fontsize=16)
+    plt.xticks(rotation=45, ha='right', fontsize=10)  # Ajuster la rotation et l'alignement des étiquettes
+    plt.yticks(fontsize=10)
+    plt.tight_layout()  # Ajuster automatiquement les sous-tracés pour qu'ils tiennent dans la figure
     st.pyplot(plt)
+
 
 
 
