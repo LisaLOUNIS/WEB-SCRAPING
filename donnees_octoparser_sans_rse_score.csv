@@ -1,0 +1,272 @@
+,index_col,title,company_name,location,experience,technical_skills,rank,score,country
+0,0,Quality Assurance Analyst - Federal,Maximus,,,"['R', 'Excel', 'Git']",,,CA
+1,1,statistical analyst,Canadian Mortgage and Housing Corporation (CMHC),,,"['Python', 'R', 'Excel', 'LLM']",,,CA
+2,2,(Summer Co-op 2024) Junior Data Analyst,The Minto Group,,,"['Python', 'R', 'Excel', 'Tableau', 'scikit-learn', 'Pandas', 'NumPy', 'SciKit-Learn', 'Dash']",,,CA
+3,3,"Senior Analyst, Health Human Resources, Data Methods and Tools",Canadian Institute for Health Information,,,"['Python', 'R', 'Excel']",,,CA
+4,4,Senior Data Analyst - Revenue Operations,Assent,,,"['Python', 'R', 'SQL', 'Excel', 'SQL', 'SQL Server', 'Dash']",,,CA
+5,5,(Summer Co-op 2024) Junior Business Analyst- Data and Technology,The Minto Group,,,"['Python', 'R', 'Excel', 'Git', 'scikit-learn', 'Pandas', 'NumPy', 'SciKit-Learn']",,,CA
+6,6,Business Support Analyst,Bank of Canada,,,"['R', 'Excel']",,,CA
+7,7,Co-op Technical Marketing Data Analyst,Renesas Electronics Corporation,,,"['Python', 'R', 'SQL', 'Excel', 'Tableau', 'SQL', 'SAS', 'Dash']",,,CA
+8,8,"Internship, Junior Analyst, Survey Design and Statistics, Summer 2024",CMHC,,,"['Python', 'R', 'Excel']",,,CA
+9,10,housing policy analyst,Canadian Mortgage and Housing Corporation (CMHC),,,"['R', 'Excel', 'LLM']",,,CA
+10,11,Geophysicist/Data Analyst,Sander Geophysics,,,['R'],,,CA
+11,12,Lead Data Quality Analyst / Data Steward (FP&A),Ciena,,,"['Python', 'R', 'SQL', 'Snowflake', 'SQL', 'Git', 'Snowflake', 'Oracle']",,,CA
+12,13,Senior Business Analyst,National Research Council Canada,,,"['R', 'Excel', 'Dash']",,,CA
+13,14,INTERMEDIATE PROGRAMMER / ANALYST,National Capital Commission,,,"['R', 'SQL', 'Excel', 'Tableau', 'SQL', 'SQL Server', 'REST API', 'C#']",,,CA
+14,15,Geophysicist/data Analyst,Sander geophysics (SGL),,,['R'],,,CA
+15,17,Network Architect F/H/NB - CDI,Disneyland Paris,,,['R'],,,FR
+16,18,Cloud Data Engineer - POEI,DataScientest,,,"['Python', 'R', 'GCP', 'AWS', 'AZURE', 'Java', 'java', 'C++']",,,FR
+17,19,Data Engineer | Alternance,DataScientest,,,"['Python', 'R', 'GCP', 'AWS', 'AZURE', 'Java', 'java', 'C++']",,,FR
+18,20,Data Engineer Confirmé (F/H),AXA,,,"['Python', 'R', 'SQL', 'Excel', 'AZURE', 'Databricks', 'Spark', 'Hadoop', 'SQL', 'Git', 'pySpark', 'Pyspark', 'PySpark']",,,FR
+19,21,Data Centre Engineer - PART TIME,Salute Mission Critical,,,"['R', 'Excel', 'Scala', 'Transformers']",,,FR
+20,22,Data Engineer H/F,RATP Cap Île-de-France,,,"['Python', 'R', 'SQL', 'Excel', 'Snowflake', 'Airflow', 'S3', 'SQL', 'Snowflake']",,,FR
+21,23,Data Engineer (H/F),IZENCIA,,,"['Python', 'R', 'SQL', 'SQL']",,,FR
+22,24,Data engineer confirmé - H/F,Seyos,,,"['Python', 'R', 'SQL', 'SQL', 'Git', 'Oracle', 'PostgreSQL']",,,FR
+23,25,Data Engineer - Remote Friendly,Free2move,,,"['Python', 'R', 'SQL', 'Excel', 'Tableau', 'SQL', 'Git', 'Docker', 'Pandas', 'Dash']",,,FR
+24,26,Data Engineer H/F,EPOCA U&I - Startup santé connectée (Medtech),,,"['Python', 'R', 'SQL', 'GCP', 'Databricks', 'Spark', 'SQL']",,,FR
+25,27,Data Engineer H/F,CRAFT,,,"['Python', 'R', 'SQL', 'GCP', 'AWS', 'AZURE', 'Spark', 'SQL', 'pySpark', 'Pyspark', 'PySpark', 'scipy', 'Pandas', 'NumPy', 'Microservices']",,,FR
+26,28,Data Engineer Cloud (H/F),UPPLI,,,"['Python', 'R', 'SQL', 'AWS', 'AZURE', 'Airflow', 'SQL', 'Git', 'Kubernetes', 'Docker', 'Jira', 'Jenkins', 'Gitlab', 'Jenkins', 'PostgreSQL']",,,FR
+27,29,AI Engineer H/F,UMAKE ILE-DE-FRANCE,,,"['Python', 'R', 'Excel', 'Spark', 'NLP', 'LLM']",,,FR
+28,30,Data Engineer H/F,ATLANSE,,,"['Python', 'R', 'SQL', 'SQL', 'NoSQL', 'MongoDB', 'PostgreSQL']",,,FR
+29,31,Data Scientist / Data engineer (graduate),Shift Technology,,,"['R', 'SQL', 'Excel', 'SQL', 'ElasticSearch', 'C#']",,,FR
+30,32,Data Engineer F/H,ATHEA SAS,,,"['Python', 'R', 'S3', 'Cassandra', 'SAS']",,,FR
+31,33,Stagiaire Data Engineer Teradata H/F,LCL,,,"['Python', 'R', 'SQL', 'SQL', 'Git', 'Gitlab', 'Oracle', 'MySQL']",,,FR
+32,34,Data Engineer (F/H/X),Ekino France,,,"['Python', 'R', 'SQL', 'Tableau', 'Spark', 'SQL', 'Git', 'Docker', 'Flask', 'Flask']",,,FR
+33,35,Data Engineer H/F,Mobilize Financial Services France,,,"['Python', 'R', 'SQL', 'Excel', 'Tableau', 'GCP', 'Airflow', 'SQL', 'NoSQL', 'ELK', 'Git', 'Kibana', 'BigQuery']",,,FR
+34,36,Consultant Data Engineer - DBT H/F,Actinvision,,,"['Python', 'R', 'SQL', 'Tableau', 'Snowflake', 'Talend', 'SQL', 'Snowflake']",,,FR
+35,37,Data Engineer H/F,APRIME,,,"['R', 'Git', 'Oracle']",,,FR
+36,38,Data Engineer H/F,La Banque Postale Consumer Finance,,,"['Python', 'R', 'SQL', 'Tableau', 'Dataiku', 'Dataiku', 'SQL', 'Oracle', 'SAS']",,,FR
+37,39,DATA ENGINEER H/F,TRSB,,,"['Python', 'R', 'Databricks', 'Spark', 'Scala', 'Git', 'VBA']",,,FR
+38,40,Data Cloud Engineer (IT) / Freelance,KOLABS Group,,,"['Python', 'R', 'SQL', 'PowerBI', 'GCP', 'Airflow', 'SQL', 'Git', 'Gitlab', 'Terraform']",,,FR
+39,41,Data Engineer GCP (F/H),Apside,,,"['Python', 'R', 'SQL', 'GCP', 'SQL', 'Git', 'Terraform', 'BigQuery']",,,FR
+40,42,Tech Lead Data Engineer- H/F/X,Société Générale,,,"['R', 'Spark', 'Scala', 'Kafka', 'Hadoop']",,,FR
+41,43,Data Engineer / DevOps H/F,Seyos,,,"['Python', 'R', 'SQL', 'AWS', 'Spark', 'SQL', 'NoSQL', 'Git', 'Terraform']",,,FR
+42,44,Stage - Data scientist - Développeur Python | Startup Fintech,AFTERDATA,,,"['Python', 'R', 'Pandas']",,,FR
+43,46,Responsable Chaine Fonctionnelle Communication F/H,MBDA France,,,['R'],,,FR
+44,47,Job_Title,Company_Name,,,['R'],,,﻿Country
+45,48,Data Engineer (H/F),HURRYMAN,,,"['R', 'Spark', 'Scala', 'Kafka', 'Hadoop', 'Cassandra', 'MongoDB']",,,FR
+46,49,Cloud Data Engineer - POEI,DataScientest,,,"['Python', 'R', 'GCP', 'AWS', 'AZURE', 'Java', 'java', 'C++']",,,FR
+47,50,Data Engineer / DevOps H/F,Seyos,,,"['Python', 'R', 'SQL', 'AWS', 'Spark', 'SQL', 'NoSQL', 'Git', 'Terraform']",,,FR
+48,51,Data Engineer | Alternance,DataScientest,,,"['Python', 'R', 'GCP', 'AWS', 'AZURE', 'Java', 'java', 'C++']",,,FR
+49,52,Data Engineer Confirmé (F/H),AXA,,,"['Python', 'R', 'SQL', 'Excel', 'AZURE', 'Databricks', 'Spark', 'Hadoop', 'SQL', 'Git', 'pySpark', 'Pyspark', 'PySpark']",,,FR
+50,53,Data engineer confirmé - H/F,Seyos,,,"['Python', 'R', 'SQL', 'SQL', 'Git', 'Oracle', 'PostgreSQL']",,,FR
+51,54,Développeur bases de données H/F,Expert & Manager,,,"['R', 'SQL', 'Excel', 'SQL', 'Oracle', 'VBA', 'MySQL']",,,FR
+52,56,Ingénieur MLOps Java/Python - H/F,Seyos,,,"['Python', 'R', 'GCP', 'AWS', 'Spark', 'Git', 'Kubernetes', 'Docker', 'ElasticSearch', 'Terraform', 'Transformers', 'scikit-learn', 'scipy', 'Java', 'Pandas', 'NumPy', 'SciKit-Learn', 'java']",,,FR
+53,57,Ingénieur avant-vente,Westcon-Comstor,,,"['R', 'Excel']",,,FR
+54,58,Ingénieur(e) DATA - BIG DATA F/H,CGI,,,"['R', 'Excel', 'GCP', 'AWS', 'AZURE', 'Talend', 'Spark', 'Git', 'OVH']",,,FR
+55,59,Product Owner Data & Analytics H/F,Groupement Les Mousquetaires,,,"['R', 'Excel']",,,FR
+56,60,Data Engineer H/F,RATP Cap Île-de-France,,,"['Python', 'R', 'SQL', 'Excel', 'Snowflake', 'Airflow', 'S3', 'SQL', 'Snowflake']",,,FR
+57,61,Data Engineer (H/F),IZENCIA,,,"['Python', 'R', 'SQL', 'SQL']",,,FR
+58,62,Data Analyst / Analytics Engineer Junior H/F – CDI,Opteamis,,,"['Python', 'R', 'SQL', 'SQL', 'Git', 'Dash', 'BigQuery']",,,FR
+59,63,Data Engineer - Remote Friendly,Free2move,,,"['Python', 'R', 'SQL', 'Excel', 'Tableau', 'SQL', 'Git', 'Docker', 'Pandas', 'Dash']",,,FR
+60,64,Data Engineer H/F,EPOCA U&I - Startup santé connectée (Medtech),,,"['Python', 'R', 'SQL', 'GCP', 'Databricks', 'Spark', 'SQL']",,,FR
+61,66,Data Engineer Cloud (H/F),UPPLI,,,"['Python', 'R', 'SQL', 'AWS', 'AZURE', 'Airflow', 'SQL', 'Git', 'Kubernetes', 'Docker', 'Jira', 'Jenkins', 'Gitlab', 'Jenkins', 'PostgreSQL']",,,FR
+62,67,Data Engineer H/F,CRAFT,,,"['Python', 'R', 'SQL', 'GCP', 'AWS', 'AZURE', 'Spark', 'SQL', 'pySpark', 'Pyspark', 'PySpark', 'scipy', 'Pandas', 'NumPy', 'Microservices']",,,FR
+63,68,AI Engineer H/F,UMAKE ILE-DE-FRANCE,,,"['Python', 'R', 'Excel', 'Spark', 'NLP', 'LLM']",,,FR
+64,69,Software Engineer - Front-End F/H,Cellenza,,,"['R', 'Excel', 'AZURE', 'Java', 'java']",,,FR
+65,70,Data Engineer H/F,ATLANSE,,,"['Python', 'R', 'SQL', 'SQL', 'NoSQL', 'MongoDB', 'PostgreSQL']",,,FR
+66,71,Stage Data Engineer (F/H),Modeo,,,"['Python', 'R', 'SQL', 'Snowflake', 'GCP', 'AWS', 'AZURE', 'Airflow', 'SQL', 'Git', 'Snowflake', 'Terraform', 'BigQuery', 'Redshift']",,,FR
+67,72,Data Scientist / Data engineer (graduate),Shift Technology,,,"['R', 'SQL', 'Excel', 'SQL', 'ElasticSearch', 'C#']",,,FR
+68,73,Stage - Data scientist - Développeur Python | Startup Fintech,AFTERDATA,,,"['Python', 'R', 'Pandas']",,,FR
+69,74,Data Engineer (Stage Mars 2024) - H/F,Showroomprive.com,,,"['Python', 'R', 'SQL', 'Airflow', 'SQL', 'Git']",,,FR
+70,75,DATA ENGINEER SQL -H/F (Stage Avril/Mai 2024),Showroomprive.com,,,"['R', 'SQL', 'Dataiku', 'Dataiku', 'SQL', 'Git']",,,FR
+71,76,Analytics Data engineer - internship,Equativ,,,"['Python', 'R', 'SQL', 'Excel', 'Tableau', 'Snowflake', 'Talend', 'Airflow', 'SQL', 'Git', 'Gitlab', 'Snowflake', 'Streamlit']",,,FR
+72,77,Stagiaire Data Scientist H/F,Argon & Co,,,"['Python', 'R', 'Tableau', 'Dataiku', 'GCP', 'AWS', 'AZURE', 'Dataiku', 'Git', 'Docker']",,,FR
+73,78,Data Engineer H/F,La Banque Postale Consumer Finance,,,"['Python', 'R', 'SQL', 'Tableau', 'Dataiku', 'Dataiku', 'SQL', 'Oracle', 'SAS']",,,FR
+74,79,Consultant Data Engineer - DBT H/F,Actinvision,,,"['Python', 'R', 'SQL', 'Tableau', 'Snowflake', 'Talend', 'SQL', 'Snowflake']",,,FR
+75,80,Alternant Data Engineer KALTDE1,Kaisens Data,,,"['Python', 'R', 'Scala', 'Java', 'java']",,,FR
+76,81,Data Engineer H/F,APRIME,,,"['R', 'Git', 'Oracle']",,,FR
+77,82,Data Engineer (F/H/X),Ekino France,,,"['Python', 'R', 'SQL', 'Tableau', 'Spark', 'SQL', 'Git', 'Docker', 'Flask', 'Flask']",,,FR
+78,83,Junior Data Engineer QC - H/F (6-month internship),Kayrros,,,"['Python', 'R', 'SQL', 'AWS', 'Spark', 'Airflow', 'S3', 'SQL', 'Kubernetes', 'ElasticSearch', 'Dash', 'PostgreSQL']",,,FR
+79,84,Stagiaire Data Engineer Teradata H/F,LCL,,,"['Python', 'R', 'SQL', 'SQL', 'Git', 'Gitlab', 'Oracle', 'MySQL']",,,FR
+80,85,"STAGE DÉVELOPPEUR JAVASCRIPT / BIG DATA, H/F",Data Driven France,,,"['R', 'SQL', 'SQL', 'Git', 'Java', 'Dash', 'java']",,,FR
+81,86,Data Science Internship (6 months),Gameloft,,,"['Python', 'R', 'SQL', 'SQL', 'Git', 'scikit-learn', 'Matplotlib', 'Seaborn', 'Pandas', 'NumPy', 'SciKit-Learn']",,,FR
+82,87,Data Engineer F/H,CORUM L'EPARGNE,,,"['Python', 'R', 'SQL', 'Excel', 'PowerBI', 'AZURE', 'SQL', 'Jira', 'SQL Server', 'Terraform']",,,FR
+83,88,Stage Data Science et Machine Learning/AI practitionner (H/F/N),Ekimetrics,,,"['Python', 'R', 'Excel', 'Git', 'Tensorflow', 'Pytorch', 'scikit-learn', 'SciKit-Learn']",,,FR
+84,89,Data Engineer H/F,Mobilize Financial Services France,,,"['Python', 'R', 'SQL', 'Excel', 'Tableau', 'GCP', 'Airflow', 'SQL', 'NoSQL', 'ELK', 'Git', 'Kibana', 'BigQuery']",,,FR
+85,90,Data Scientist / Data science engineer (End-of-studies Internship),Shift Technology,,,"['R', 'NLP']",,,FR
+86,91,Consultant data Engineer Azure F/H,Adapt RH,,,"['R', 'SQL', 'AZURE', 'Databricks', 'SQL']",,,FR
+87,92,STAGIAIRE DATA ENGINEER SNOWFLAKE (H/F),Hardis Group,,,"['Python', 'R', 'SQL', 'Snowflake', 'GCP', 'Scala', 'Kafka', 'SQL', 'NoSQL', 'Snowflake', 'Java', 'java']",,,FR
+88,93,Data Engineer H/F,Ippon Technologies,,,"['Python', 'R', 'Excel', 'GCP', 'AWS', 'AZURE', 'Spark', 'Scala']",,,FR
+89,94,CDI - Data Engineer H/F,Aprime,,,"['R', 'Git', 'Oracle']",,,FR
+90,95,Data Engineer H/F,JCDecaux,,,"['Python', 'R', 'AWS', 'Scala', 'Java', 'java', 'C++']",,,FR
+91,96,Data Engineer GCP,Kéoni Consulting,,,"['Python', 'R', 'SQL', 'GCP', 'SQL', 'Flask', 'Flask']",,,FR
+92,97,Data Engineer GCP (F/H),Apside,,,"['Python', 'R', 'SQL', 'GCP', 'SQL', 'Git', 'Terraform', 'BigQuery']",,,FR
+93,98,Développeur Data Science (H/F),GROUPE AFNOR,,,"['Python', 'R', 'LLM']",,,FR
+94,99,JUNIOR / EXPERIENCED SOFTWARE ENGINEER F/H,TREKEA SAS,,,"['R', 'Excel', 'AWS', 'Scala', 'Git', 'Kubernetes', 'Docker', 'Java', 'Microservices', 'java']",,,FR
+95,100,Stage Ingénieur Data Scientist - Ultrasounds Imaging H/F,Philips,,,"['Python', 'R', 'Excel']",,,FR
+96,101,Machine Learning Research Engineer - remote friendly,Diabolocom,,,"['Python', 'R', 'SQL', 'Excel', 'SQL', 'NoSQL', 'MongoDB', 'Git', 'Docker', 'Tensorflow', 'NLP', 'Pytorch', 'Transformers', 'MLflow']",,,FR
+97,102,Data Scientist – BCG X,Boston Consulting Group,,,"['Python', 'R', 'Spark', 'Scala', 'Git']",,,FR
+98,103,Data Engineer - MOE BI H/F,ENGIE,,,"['R', 'SQL', 'SQL', 'Git']",,,FR
+99,104,Data Science / Machine Learning Engineer Intern,AccorCorpo,,,"['Python', 'R', 'SQL', 'Excel', 'Dataiku', 'Snowflake', 'AWS', 'Dataiku', 'S3', 'SQL', 'Git', 'Snowflake', 'generative AI']",,,FR
+100,105,Stage en Marketing Analytics et Data Science (H/F/N) - Paris,Ekimetrics,,,"['Python', 'R', 'Excel', 'Git']",,,FR
+101,106,ML Engineer/Data Scientist,Licorne Society,,,"['Python', 'R', 'SQL', 'GCP', 'AWS', 'AZURE', 'SQL', 'Git', 'Kubernetes', 'Docker']",,,FR
+102,107,Stage - Data Engineer - Services Financiers - Île de de France,Sopra Steria,,,"['R', 'Dataiku', 'Spark', 'Scala', 'Dataiku', 'Git', 'Jenkins', 'Java', 'Jenkins', 'java', 'C#', 'C++']",,,FR
+103,108,DATA ENGINEER (F/H),SA REALISATION DE SYSTEMES INFORMATIQUE,,,"['Python', 'R', 'Scala', 'Kafka', 'Java', 'java']",,,FR
+104,109,Stagiaire Consultant(e) Data Engineer - H/F,SMART TEEM,,,"['Python', 'R', 'SQL', 'Spark', 'Hadoop', 'SQL', 'NoSQL', 'pySpark', 'Pyspark', 'PySpark', 'PostgreSQL', 'HDFS']",,,FR
+105,110,STAGE DATA ENGINEER (H/F),SA REALISATION DE SYSTEMES INFORMATIQUE,,,"['Python', 'R', 'Scala', 'Kafka', 'Java', 'java']",,,FR
+106,111,Data Engineer F/H,ATHEA SAS,,,"['Python', 'R', 'S3', 'Cassandra', 'SAS']",,,FR
+107,112,Consultant Talend - Data Engineer H/F,Actinvision,,,"['Python', 'R', 'SQL', 'Tableau', 'Snowflake', 'GCP', 'AWS', 'AZURE', 'Talend', 'SQL', 'Snowflake', 'SQL Server', 'Java', 'MySQL', 'java']",,,FR
+108,113,"Data Engineer - Scientific Engine (Airflow, DVC) - CDI",Descartes Underwriting,,,"['Python', 'R', 'GCP', 'AWS', 'AZURE', 'Spark', 'Airflow', 'Git', 'Kubernetes', 'Docker', 'Gitlab']",,,FR
+109,114,Stage -Cloud Data Engineer Junior (H/F),DATASCIENTEST,,,"['Python', 'R', 'AZURE', 'Databricks', 'Spark', 'Scala', 'OVH', 'Azure Data Factory']",,,FR
+110,115,Data Engineer Snowflake H/F,Talan,,,"['Python', 'R', 'SQL', 'Excel', 'Snowflake', 'AWS', 'SQL', 'Git', 'Snowflake']",,,FR
+111,116,Data Hub Python Data Engineer H/F,ADD UP,,,"['Python', 'R']",,,FR
+112,117,Data Engineer - Financial Services F/H,CGI,,,"['Python', 'R', 'SQL', 'Excel', 'Spark', 'Kafka', 'Hadoop', 'SQL', 'NoSQL', 'pySpark', 'Pyspark', 'PySpark', 'HDFS', 'Yarn']",,,FR
+113,118,DATA ENGINEER SOLVENCY II- BASEL III,Kéoni Consulting,,,"['Python', 'R', 'SQL', 'Excel', 'Scala', 'SQL', 'Kanban']",,,FR
+114,120,Data Engineer (M/F),SESAMm,,,"['Python', 'R', 'SQL', 'Excel', 'GCP', 'AWS', 'AZURE', 'Databricks', 'Spark', 'SQL', 'MongoDB', 'pySpark', 'Pyspark', 'PySpark']",,,FR
+115,121,Data Engineer Cloud Data - Azure F/H,CGI,,,"['Python', 'R', 'SQL', 'Excel', 'PowerBI', 'Snowflake', 'AZURE', 'Databricks', 'SQL', 'Git', 'Snowflake', 'Terraform']",,,FR
+116,122,Data Engineer AWS (F/H),Apside,,,"['Python', 'R', 'SQL', 'AWS', 'Spark', 'Airflow', 'S3', 'SQL', 'NoSQL', 'Git', 'ElasticSearch', 'GPT']",,,FR
+117,123,Data Centre Engineer - PART TIME,Salute Mission Critical,,,"['R', 'Excel', 'Scala', 'Transformers']",,,FR
+118,124,Tech Lead Data Engineer- H/F/X,Société Générale,,,"['R', 'Spark', 'Scala', 'Kafka', 'Hadoop']",,,FR
+119,125,Research Data Scientist Intern,Ornikar,,,"['Python', 'R', 'SQL', 'Airflow', 'SQL', 'Dash', 'BigQuery']",,,FR
+120,126,Junior - Machine Learning Engineer – Financial Services (F/H),Deloitte,,,"['Python', 'R', 'SQL', 'Excel', 'SQL', 'NoSQL', 'Git', 'Kubernetes', 'Tensorflow', 'Dash']",,,FR
+121,127,Data Engineer - Big Data - Data Factory - Services Financiers - Ile de France,Sopra Steria,,,"['Python', 'R', 'SQL', 'Spark', 'Scala', 'Kafka', 'Hadoop', 'SQL', 'Git', 'pySpark', 'Pyspark', 'PySpark', 'Java', 'java']",,,FR
+122,129,Stage Data Engineer (H/F/N) – PARIS,Ekimetrics,,,"['R', 'Excel', 'Git']",,,FR
+123,130,Machine Learning Engineer H/F,ELD Recrutement,,,['R'],,,FR
+124,131,Data Engineer H/F,Nexton Consulting FR,,,"['Python', 'R', 'SQL', 'Tableau', 'SQL', 'Git']",,,FR
+125,132,Neuronal Data scientist (M/F),ICM Institut du Cerveau,,,"['Python', 'R']",,,FR
+126,134,Data Engineer - Machine Learning (H/F),Withings,,,"['Python', 'R', 'SQL', 'Excel', 'SQL']",,,FR
+127,136,Data Engineer H/F,padoa,,,"['Python', 'R', 'SQL', 'SQL']",,,FR
+128,137,Data Engineer - Services Financiers - Ile de France,Sopra Steria,,,"['R', 'SQL', 'AWS', 'AZURE', 'Spark', 'Kafka', 'Hadoop', 'SQL', 'NoSQL', 'Git']",,,FR
+129,138,Machine Learning Engineer Internship - Music Recommendation m/f/d,Deezer,,,"['Python', 'R', 'keras', 'Pytorch', 'Transformers']",,,FR
+130,139,Data Engineer (H/F/NB) - Paris,Keyrus France,,,"['R', 'Git']",,,FR
+131,140,Senior Data Engineer,Planity,,,"['Python', 'R', 'SQL', 'AWS', 'Spark', 'S3', 'SQL', 'Terraform']",,,FR
+132,141,Big Data Engineer Databricks H/F,Talan,,,"['Python', 'R', 'SQL', 'Excel', 'AWS', 'Databricks', 'Spark', 'Scala', 'S3', 'Kafka', 'SQL', 'Git', 'Jenkins', 'Gitlab', 'Jenkins', 'HDFS']",,,FR
+133,142,Senior Data Scientist / ML Engineer - Biotech - 80K-100K,Lity,,,"['Python', 'R']",,,FR
+134,143,Machine Learning Engineer - X/F/M,LIFEN,,,"['Python', 'R', 'Excel', 'Git', 'Docker', 'keras', 'Tensorflow', 'NLP', 'LLM', 'generative AI']",,,FR
+135,144,Data science / Power system engineer internship,Rte international,,,"['Python', 'R', 'Git', 'Jira', 'NLP', 'LLM', 'Pytorch']",,,FR
+136,145,Data Engineer (F/M/D),Vestiaire Collective,,,"['Python', 'R', 'SQL', 'Excel', 'Tableau', 'AWS', 'Airflow', 'Kafka', 'Hadoop', 'SQL', 'NoSQL', 'Git']",,,FR
+137,146,Data Engineer dbt H/F,Talan,,,"['R', 'Excel', 'Snowflake', 'AZURE', 'Git', 'Gitlab', 'Snowflake']",,,FR
+138,148,Data Engineer - MEDTECH - 80K-100K,Lity,,,"['R', 'AWS', 'Scala', 'Airflow', 'GraphQL']",,,FR
+139,149,DEVELOPPEUR DATA JUNIOR CLOUD AZURE - F/H,REUSSIR SA,,,"['R', 'SQL', 'AZURE', 'SQL', 'Git', 'Java', 'java', 'C#']",,,FR
+140,150,Stage : Data Engineer F/H,CGI,,,"['Python', 'R', 'SQL', 'Excel', 'Tableau', 'GCP', 'AWS', 'AZURE', 'Databricks', 'Talend', 'Spark', 'Hadoop', 'SQL', 'NoSQL', 'Git', 'SAS']",,,FR
+141,151,DATA ENGINEER H/F,TRSB,,,"['Python', 'R', 'Databricks', 'Spark', 'Scala', 'Git', 'VBA']",,,FR
+142,152,Data Analyst - Power BI,Breople,,,"['Python', 'R', 'SQL', 'Excel', 'Tableau', 'SQL', 'Dash']",,,FR
+143,153,Stage 2024 Data scientist/engineer H/F,Crédit Agricole Consumer Finance,,,"['Python', 'R', 'Git', 'Dash']",,,FR
+144,154,Data Engineer BI,K-LAGAN,,,"['R', 'SQL', 'AZURE', 'Spark', 'Scala', 'SQL', 'pySpark', 'Pyspark', 'PySpark', 'SAS']",,,FR
+145,155,Senior Consultant·e Data Engineer,Breople,,,"['Python', 'R', 'SQL', 'Snowflake', 'GCP', 'AZURE', 'Databricks', 'Spark', 'Airflow', 'Kafka', 'SQL', 'NoSQL', 'Git', 'Kubernetes', 'Docker', 'Jenkins', 'Snowflake', 'pySpark', 'Pyspark', 'PySpark', 'Jenkins', 'Dash', 'BigQuery']",,,FR
+146,156,Data Scientist ML Engineer,Altelios Technology Group,,,"['Python', 'R', 'AWS', 'Spark', 'Scala', 'Git', 'Docker']",,,FR
+147,157,STAGIAIRE DATA SCIENTIST - FÉVRIER/MARS 2024 F/H,KPMG,,,"['R', 'Excel', 'Dash']",,,FR
+148,158,Stage de fin d'études - Data Engineer - H/F,Sia Partners,,,"['Python', 'R', 'SQL', 'Excel', 'GCP', 'AWS', 'AZURE', 'Spark', 'Hadoop', 'SQL', 'Tensorflow', 'PostgreSQL']",,,FR
+149,159,Software Engineer - AI & ML - France or Remote EMEA,Dataiku,,,"['Python', 'R', 'Dataiku', 'AWS', 'Scala', 'Dataiku', 'NLP', 'LLM', 'generative AI', 'Java', 'java']",,,FR
+150,160,Stage Data Engineer - Prévisions & Analyse Réseaux,SFR,,,"['R', 'SQL', 'Tableau', 'SQL', 'Oracle', 'Shiny']",,,FR
+151,161,Data Engineer Talend (H/F) - Paris,BPCE Solutions Informatiques,,,"['R', 'SQL', 'PowerBI', 'Talend', 'SQL', 'SQL Server', 'Oracle']",,,FR
+152,162,DATA ENGINEER CONFIRME 3,Kéoni Consulting,,,"['Python', 'R', 'SQL', 'GCP', 'Spark', 'Scala', 'Airflow', 'SQL', 'Git', 'Kanban', 'Gitlab', 'BigQuery']",,,FR
+153,163,Data Engineer DataBricks (H/F/NB),Keyrus France,,,"['Python', 'R', 'SQL', 'AWS', 'AZURE', 'Databricks', 'Spark', 'Scala', 'S3', 'Kafka', 'Hadoop', 'SQL', 'Git']",,,FR
+154,164,Junior Data Engineer,ORTEC,,,"['Python', 'R', 'SQL', 'Tableau', 'PowerBI', 'Scala', 'SQL']",,,FR
+155,165,Data Engineering H/F,Apsid'EA,,,"['R', 'Dataiku', 'Dataiku', 'Git', 'Shiny']",,,FR
+156,166,STAGIAIRE DATA ENGINEER GCP (H/F),Hardis Group,,,"['Python', 'R', 'SQL', 'GCP', 'Spark', 'Airflow', 'Kafka', 'SQL', 'NoSQL', 'ELK', 'Java', 'java']",,,FR
+157,167,Data Scientist (X/F/M),ALSTOM,,,"['Python', 'R', 'Excel', 'Scala', 'Git', 'Plotly', 'Streamlit', 'Dash', 'Plotly']",,,FR
+158,168,Data Engineer (H/F),Ekkiden,,,"['R', 'SQL', 'Spark', 'Scala', 'Kafka', 'Hadoop', 'SQL', 'NoSQL', 'Cassandra', 'Git', 'Kubernetes', 'Docker', 'Jenkins', 'Gitlab', 'Java', 'Jenkins', 'java']",,,FR
+159,169,Data Engineer - (H/F) - 77 + remote (IT) / Freelance,Mindquest,,,"['R', 'SQL', 'SQL', 'Oracle']",,,FR
+160,170,Stage – Data Scientist / ML Engineer - F/H,AXA,,,"['Python', 'R', 'SQL', 'Databricks', 'Spark', 'SQL', 'Git', 'scikit-learn', 'Matplotlib', 'Seaborn', 'Pandas', 'SciKit-Learn', 'MLflow']",,,FR
+161,171,DATA ENGINEER H/F DÉCOUVRIR PARIS - CDI,42c,,,"['Python', 'R', 'SQL', 'Spark', 'Scala', 'SQL', 'NoSQL', 'Git']",,,FR
+162,172,Stage - Data Engineer - Banque - Ile de France,Sopra Steria,,,"['R', 'Dataiku', 'Spark', 'Dataiku', 'Git', 'Jenkins', 'Java', 'Jenkins', 'java', 'C#', 'C++']",,,FR
+163,173,Senior Data Engineer F/H,AXA,,,"['Python', 'R', 'PowerBI', 'Dataiku', 'AZURE', 'Databricks', 'Spark', 'Dataiku', 'pySpark', 'Pyspark', 'PySpark']",,,FR
+164,174,Stage développeur consultant Data / IA,Aldecis,,,"['R', 'SQL', 'Tableau', 'SQL', 'SQL Server']",,,FR
+165,175,Data Scientist-ML Engineer (IT) / Freelance,Kaïbee,,,"['Python', 'R', 'AWS', 'Spark', 'Scala', 'Git', 'Docker', 'Kanban']",,,FR
+166,176,Ingénieur Généraliste Analyse de Données Inertielles - Stage - H/F,EXAIL,,,"['Python', 'R']",,,FR
+167,177,Data Scientist / ML Engineer (IT) / Freelance,CHARLI GROUP,,,"['Python', 'R', 'AWS', 'Spark', 'Scala', 'Git', 'Docker', 'Kanban']",,,FR
+168,178,Data Engineer BI (IT) / Freelance,Groupe Aptenia,,,"['R', 'SQL', 'GCP', 'Spark', 'Hadoop', 'SQL', 'Git', 'Java', 'Dash', 'java']",,,FR
+169,179,Stage de fin d'études - Software Engineer - H/F,Sia Partners,,,"['Python', 'R', 'Excel', 'Docker', 'Java', 'Flask', 'Flask', 'Microservices', 'java']",,,FR
+170,180,Analytics Engineer - F/H - Paris 18,Chronopost,,,"['Python', 'R', 'SQL', 'Tableau', 'SQL', 'Git', 'Redshift']",,,FR
+171,181,Ingénieur Data Analyste Web,Kéoni Consulting,,,"['R', 'Excel', 'Git']",,,FR
+172,182,Ingénieur en traitement et analyse de données (H/F),CNRS,,,[],,,FR
+173,183,Data Scientist / Data Analyst (all genders),Mazars GmbH & Co. KG,,,"['Python', 'R', 'AZURE', 'Git', 'Dash']",,,DE
+174,184,Data Scientist Engineer (m/w/d) Digital Solutions für Verkehrstechnik,Amadeus FiRe,,,"['Python', 'R', 'ELK', 'Git', 'Java', 'java', 'C++']",,,DE
+175,185,(Senior) Data Scientist - Innovation Developer (m/w/d),Bundesdruckerei GmbH,,,"['Python', 'R', 'SQL', 'SQL', 'NoSQL', 'NLP', 'LLM']",,,DE
+176,186,Data Scientist/Analyst prüfungsnahe Beratung/Quants - Assurance (Financial Services) (w/m/d),Ernst & Young GmbH,,,"['Python', 'R', 'SQL', 'SQL', 'MongoDB', 'SAS', 'Java', 'java', 'C#']",,,DE
+177,187,Senior Data Scientist (m/w/d) - Berlin Ref. 22284,KA Resources,,,"['Python', 'R', 'SQL', 'Scala', 'SQL', 'Git', 'Random Forest', 'SAS', 'Java', 'java']",,,DE
+178,188,"Chemist, Life Scientist - Logistics, SCM, Oligonucleotides (m/f/d)",Silence Therapeutics GmbH,,,"['R', 'Excel', 'SAS']",,,DE
+179,189,Data Scientist*in Einnahmesicherung und Auskehr (d/m/w),Toll Collect GmbH,,,['R'],,,DE
+180,190,Analyst:in / Mathematiker:in / Data Scientist (m/w/d),enervis energy advisors GmbH,,,"['Python', 'R']",,,DE
+181,191,Senior Data Scientist (m/f/d),Ströer SSP GmbH,,,"['Python', 'R', 'SQL', 'Excel', 'Scala', 'Airflow', 'SQL', 'Git', 'Docker', 'Terraform', 'scikit-learn', 'Pandas', 'SciKit-Learn']",,,DE
+182,192,Data Scientist (w/m/d),Kassenärztliche Bundesvereinigung KdöR,,,"['Python', 'R', 'SQL', 'SQL', 'Git']",,,DE
+183,193,Senior Data Scientist (m/w/d),Collaboration Betters The World GmbH,,,['R'],,,DE
+184,194,"Scientist, Analytical Chemistry",Silence Therapeutics GmbH,,,"['R', 'Excel']",,,DE
+185,195,Proteomics Scientist In Targeted Protein Degradation Research,Max-Delbrück-Centrum für Molekulare Medizin in der...,,,"['R', 'Excel']",,,DE
+186,196,"Applied Scientist II, AFT AI, Amazon Fulfillment Technologies (AFT)",Amazon Development Center Germany GmbH,,,"['Python', 'R', 'Tensorflow', 'LLM', 'Pytorch', 'Java', 'Pandas', 'java', 'C++']",,,DE
+187,197,(Senior) Actuarial Data Scientist (m/w/d),Verti Versicherung AG,,,"['Python', 'R', 'SQL', 'AWS', 'SQL', 'Git', 'Dash']",,,DE
+188,198,Senior Marketing Data Scientist (d/f/m),Taxfix SE,,,"['Python', 'R', 'SQL', 'Excel', 'Snowflake', 'Airflow', 'SQL', 'Snowflake']",,,DE
+189,200,Junior Data Scientist (m/w/d) – Risikomodelle,S Rating und Risikosysteme GmbH,,,"['Python', 'R', 'SQL', 'Spark', 'SQL', 'Random Forest', 'SAS', 'Java', 'java']",,,DE
+190,201,Machine Learning Scientist für GenAI (m/w/d),dkb,,,"['Python', 'R', 'AWS', 'Git', 'Docker', 'Pytorch', 'Pandas', 'NumPy']",,,DE
+191,202,Senior Data Scientist,SumUp Services GmbH,,,"['Python', 'R', 'SQL', 'Excel', 'AWS', 'Spark', 'SQL', 'Pytorch', 'scikit-learn', 'pySpark', 'Pyspark', 'PySpark', 'Pandas', 'SciKit-Learn']",,,DE
+192,203,Senior Data Scientist (mwd),HMS Analytical Software GmbH,,,"['Python', 'R', 'SQL', 'AWS', 'AZURE', 'Spark', 'Kafka', 'SQL', 'Git', 'Kubernetes', 'Docker', 'Java', 'java', 'C#', 'C++']",,,DE
+193,204,"ecological modeller, biostatistician",Leibniz-Institut für Zoo- und Wildtierforschung,,,"['Python', 'R']",,,DE
+194,205,Senior Data Engineer (f/m/x),Sharpist GmbH,,,"['Python', 'R', 'SQL', 'Excel', 'Scala', 'Airflow', 'SQL', 'Git', 'Dash', 'BigQuery']",,,DE
+195,206,(Organic) Chemist / CMC Process Development Scientist,Silence Therapeutics GmbH,,,"['R', 'Excel']",,,DE
+196,207,Senior Data Scientist (d/w/m),tetrel GmbH,,,"['Python', 'R', 'Pytorch', 'scikit-learn', 'Pandas', 'NumPy', 'SciKit-Learn']",,,DE
+197,208,Senior Data Scientist - (m/w/d),Choco Communications GmbH,,,"['Python', 'R', 'SQL', 'Excel', 'AWS', 'Databricks', 'Spark', 'Scala', 'SQL', 'NLP', 'LLM', 'GPT', 'pySpark', 'Pyspark', 'PySpark', 'MLflow']",,,DE
+198,209,Principal Data Scientist - Machine Learning (f/m/d),Almedia,,,"['Python', 'R', 'SQL', 'Excel', 'SQL', 'Git']",,,DE
+199,210,Data Scientist Generative AI (m/w/d),Materna Information & Communications SE,,,"['Python', 'R', 'SQL', 'Spark', 'Kafka', 'Hadoop', 'SQL', 'Git', 'keras', 'Tensorflow', 'generative AI', 'GPT', 'Pytorch', 'Java', 'java']",,,DE
+200,211,Data Scientist (m/w/d),Michael Page,,,"['Python', 'R', 'SQL', 'SQL', 'Git']",,,DE
+201,212,Senior Data Scientist (d/w/m),4flow,,,"['Python', 'R', 'SQL', 'SQL', 'Java', 'java']",,,DE
+202,213,"DATA SCIENTIST ENGINEER (M/W/D) DIGITAL SOLUTIONS – BRAUNSCHWEIG, BERLIN",Stadler Signalling Deutschland GmbH,,,"['Python', 'R', 'Git', 'Java', 'java', 'C#', 'C++']",,,DE
+203,214,Senior Data Scientist- Credit Risk (m/f/d),RatePAY GmbH,,,"['R', 'Git']",,,DE
+204,215,Staff Data Engineer,Morressier,,,"['Python', 'R', 'SQL', 'Airflow', 'Kafka', 'SQL', 'MongoDB', 'Kubernetes', 'BigQuery', 'PostgreSQL']",,,DE
+205,216,Angebot von eejobs.de: Öffnet sich in neuem Fenster Senior Data Scientist (m/w/d),Solandeo,,,['R'],,,DE
+206,217,(Senior) Data Scientist (all genders),EXXETA,,,"['Python', 'R', 'Git', 'Tensorflow', 'Pytorch']",,,DE
+207,218,(Associate) Consultant (Gen) AI & Data Scientist | AI Garage (m/w/d),Capgemini Invent,,,"['Python', 'R', 'Git']",,,DE
+208,219,Scientist Photonic / Modulators and Photodetectors,"Telecommunications, Heinrich Hertz Institute",,,"['R', 'Excel']",,,DE
+209,220,Senior Data Engineer (f/m/x),HelloFresh,,,"['Python', 'R', 'SQL', 'Spark', 'Scala', 'Kafka', 'SQL']",,,DE
+210,221,(Senior) Data Scientist (m/w/d),T-Systems International GmbH,,,"['Python', 'R', 'SQL', 'Tableau', 'AWS', 'AZURE', 'SQL', 'Git', 'keras', 'Tensorflow', 'NLP', 'scikit-learn', 'Pandas', 'SciKit-Learn']",,,DE
+211,222,Field Application Scientist - North Germany & The Netherlands,Parse Biosciences,,,"['R', 'Scala']",,,DE
+212,223,Senior Machine Learning Engineer,Workato,,,"['Python', 'R', 'NLP', 'LLM', 'MLflow']",,,DE
+213,224,"DATA SCIENTIST ENGINEER (M/W/D) DIGITAL SOLUTIONS – BRAUNSCHWEIG, BERLIN",Stadler Signalling Deutschland GmbH,,,"['Python', 'R', 'Git', 'Java', 'java', 'C#', 'C++']",,,DE
+214,225,Senior Data Scientist,Consortia,,,"['R', 'Excel', 'Scala', 'NLP', 'LLM', 'Pytorch']",,,DE
+215,226,(Senior) Data Scientist - Credit Risk (m/f/d),home24 SE,,,"['Python', 'R', 'SQL', 'AWS', 'SQL', 'Git', 'Java', 'Dash', 'java']",,,DE
+216,227,Data Scientist (m/w/d),FERCHAU,,,"['Python', 'R', 'SQL', 'Tableau', 'Snowflake', 'AZURE', 'Databricks', 'Spark', 'Airflow', 'SQL', 'Git', 'Kanban', 'Snowflake']",,,DE
+217,228,Senior Consultant / Manager (Gen) AI & Data Scientist | AI Garage (m/w/d),Capgemini Invent,,,"['Python', 'R', 'Git']",,,DE
+218,229,C++ Staff Engineer - Data Scientist or Software Engineer -,Celonis SE,,,"['Python', 'R', 'AWS', 'Git', 'Java', 'java', 'C++']",,,DE
+219,230,"Senior Data Scientist (Data Foresight, Climate Change)",International Organization for Migration,,,"['Python', 'R', 'NLP']",,,DE
+220,231,Fully-funded PhD positions in Biomedical Sciences at the MDC Berlin,Max-Delbrück-Centrum für Molekulare Medizin in der...,,,"['R', 'Excel']",,,DE
+221,232,"Lead Data Scientist, Insurance Industry - BCG X",Boston Consulting Group,,,"['Python', 'R', 'Spark', 'Scala', 'Git']",,,DE
+222,233,Data Engineer (m/w/d) Solar Energy,Michael Page,,,"['Python', 'R', 'SQL', 'AWS', 'Scala', 'SQL', 'NoSQL', 'Cassandra', 'Java', 'java', 'C++']",,,DE
+223,234,Software Engineering Manager (m/f/d),DER TECHHUNTER,,,"['R', 'Scala', 'Java', 'java']",,,DE
+224,235,Consultant Data Science & Business Intelligence / Banking (m/w/d),msg systems ag,,,"['R', 'Git', 'Kanban']",,,DE
+225,236,Head of Data Science (m/w/d),Michael Page,,,"['Python', 'R', 'Spark', 'Hadoop']",,,DE
+226,237,"Senior Software Engineer, Frontend",Decentriq,,,"['R', 'S3', 'GraphQL']",,,DE
+227,238,Senior Technical Product Owner - Analytics Platform DevOps (m/f/d),CARIAD SE,,,"['R', 'AWS', 'Scala', 'Git']",,,DE
+228,239,"Scientist, Biopharma Data Analysis",Eurofins,,,"['R', 'Excel']",,,CH
+229,240,Computer Scientist / Mathematician / Physicist as Research Scientist* 80-100%,Haag-Streit AG,,,"['R', 'Excel']",,,CH
+230,241,"Scientist, R&D Process Development",Eurofins,,,"['R', 'Excel']",,,CH
+231,242,Software Engineer Senior (m/f/d),Terrera AG,,,"['R', 'Excel', 'Scala', 'Kafka', 'Java', 'java']",,,CH
+232,243,Data Engineer / all Level (gn),enersis suisse AG,,,"['Python', 'R', 'SQL', 'Airflow', 'SQL', 'NoSQL', 'Git', 'Kubernetes', 'Docker']",,,CH
+233,244,"Associate Scientist, R&D Pathogen Safety",Eurofins,,,"['R', 'Excel', 'S3']",,,CH
+234,245,Scientist - R&D Pathogen Safety,Eurofins,,,"['R', 'Excel', 'S3']",,,CH
+235,246,Research Asssociate (f/m/d),Insel Gruppe,,,['R'],,,CH
+236,247,Data Engineer 80% (m/w/d),Terrera AG,,,"['Python', 'R', 'SQL', 'AZURE', 'Kafka', 'SQL', 'Kubernetes', 'Docker', 'Jira', 'SAS']",,,CH
+237,248,Position as Scientific Programmer/Data Scientist,Universität Bern Universität Bern,,,"['R', 'Excel', 'Git']",,,CH
+238,249,Food Material Science Intern,Nestle Operational Services Worldwide SA,,,['R'],,,CH
+239,250,Associate Scientist QC Release & Stability // Johnson & Johnson,Randstad,,,['R'],,,CH
+240,251,Data Scientist 50-100%,Adecco,,,"['Python', 'R', 'SQL', 'SQL']",,,CH
+241,252,Senior Cloud Data Engineer,ELCA Security,,,"['R', 'SQL', 'Snowflake', 'GCP', 'AWS', 'AZURE', 'Databricks', 'Spark', 'Kafka', 'Hadoop', 'SQL', 'NoSQL', 'Git', 'Kubernetes', 'Snowflake', 'SQL Server', 'Terraform', 'PostgreSQL']",,,CH
+242,253,Head of Online Marketing,DNA325,,,"['Python', 'R', 'SQL', 'Excel', 'SQL', 'Git']",,,CH
+243,254,Scientist in Bioanalytical Sciences for the Core Analytical Testing Team,CSL Behring,,,"['R', 'Excel', 'Git']",,,CH
+244,255,Position as Scientific Programmer/Data Scientist,Universität Bern,,,"['R', 'Excel', 'Git']",,,CH
+245,256,Senior Cloud Data Engineer,ELCA Informatique SA,,,"['R', 'SQL', 'Snowflake', 'GCP', 'AWS', 'AZURE', 'Databricks', 'Spark', 'Kafka', 'Hadoop', 'SQL', 'NoSQL', 'Git', 'Kubernetes', 'Snowflake', 'SQL Server', 'Terraform', 'PostgreSQL']",,,CH
+246,257,Security Operations Engineer / DevOps Engineer,Adnovum,,,"['R', 'Git']",,,CH
+247,258,Jun./Prof. Entwickler im Big Data Umfeld,Future IT GmbH,,,['R'],,,CH
+248,259,Lead Operator ExPec // Johnson & Johnson,Randstad,,,['R'],,,CH
+249,260,Lead Technician GMP Operations // Johnson & Johnson,Randstad,,,['R'],,,CH
+250,261,Lead Technician GMP Operations ExPec // Johnson & Johnson,Randstad,,,['R'],,,CH
+251,262,Hochschulpraktikum Verkehrsmanagement 80-100%,Bau- und Verkehrsdirektion Tiefbauamt,,,"['R', 'Git']",,,CH
+252,263,ABAP Entwickler in Bern (m/w/d),ROCKEN,,,"['R', 'Jira']",,,CH
+253,264,Security Operations Engineer / DevOps Engineer,AdNovum Informatik,,,"['R', 'Git']",,,CH
+254,265,Verkaufscontroller:in und Projektleiter:in Werbemarkt,Die Schweizerische Post,,,['R'],,,CH
+255,266,"(Senior) Data & AI Consultant (Bern, Switzerland)",Unit8 SA,,,"['R', 'Git', 'generative AI']",,,CH
+256,267,SAP ABAP Entwickler (m/w/d),ROCKEN,,,"['R', 'Jira']",,,CH
+257,268,"Data & AI Consulting Lead (Bern, Switzerland)",Unit8 SA,,,"['R', 'Git', 'generative AI']",,,CH
+258,269,AI/Machine Learning Analyst,Fujitsu,,,"['Python', 'R']",,,CA
+259,270,Senior Data Scientist,CMHC,,,"['Python', 'R', 'SQL', 'GCP', 'AWS', 'AZURE', 'Spark', 'Hadoop', 'SQL', 'Cassandra', 'NLP', 'generative AI']",,,CA
+260,271,(Summer Co-op 2024) Junior Data Analyst,The Minto Group,,,"['Python', 'R', 'Excel', 'Tableau', 'scikit-learn', 'Pandas', 'NumPy', 'SciKit-Learn', 'Dash']",,,CA
+261,272,AI/Machine Learning Lead,Fujitsu,,,"['Python', 'R', 'Excel', 'Tensorflow', 'Pytorch', 'Java', 'java']",,,CA
+262,273,"Co-Op/Intern Developer, Machine Learning - QA",Kinaxis,,,"['Python', 'R']",,,CA
+263,274,"Assistant Director, Data Science",Bank of Canada,,,"['R', 'Excel']",,,CA
+264,276,Co-op Technical Marketing Data Analyst,Renesas Electronics Corporation,,,"['Python', 'R', 'SQL', 'Excel', 'Tableau', 'SQL', 'SAS', 'Dash']",,,CA
+265,278,Senior Data Analyst - Revenue Operations,Assent,,,"['Python', 'R', 'SQL', 'Excel', 'SQL', 'SQL Server', 'Dash']",,,CA
+266,279,Data Analyst-Tableau Developer (Co-op Student/Intern),Lumentum Operations LLC,,,"['Python', 'R', 'SQL', 'Excel', 'Tableau', 'SQL', 'Git', 'Jira']",,,CA
+267,281,"Assistant / Associate Professor and Canada Research Chair, Tier 2 – Computer Science (Artificial Intelligence and/or Cybersecurity)",Carleton University,,,"['R', 'Excel']",,,CA
+268,284,Assistant Professor Environmental Change and Artificial Intelligence,University of Ottawa,,,"['R', 'Excel', 'AWS', 'Git']",,,CA
+269,285,Lead Machine Learning Engineer (Canada Remote),Fullscript,,,"['Python', 'R', 'SQL', 'Excel', 'Snowflake', 'AWS', 'Spark', 'SQL', 'Tensorflow', 'Snowflake', 'GPT', 'Pytorch', 'scikit-learn', 'SciKit-Learn', 'BigQuery', 'Redshift', 'PostgreSQL', 'MySQL']",,,CA
+270,286,Senior ML Engineer,Qlik,,,"['Python', 'R', 'SQL', 'Excel', 'AWS', 'AZURE', 'Scala', 'Airflow', 'SQL', 'NoSQL', 'MongoDB', 'Kubernetes', 'Docker', 'ElasticSearch', 'Tensorflow', 'LLM', 'Pytorch', 'scikit-learn', 'Java', 'SciKit-Learn', 'MLflow', 'java', 'C++']",,,CA

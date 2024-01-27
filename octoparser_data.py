@@ -56,12 +56,58 @@ donnees_fusionnees['Technical_skills'] = donnees_fusionnees['Job_description'].a
 # Afficher le résultat
 print(donnees_fusionnees[['Job_description', 'Technical_skills']])
 
+del donnees_fusionnees["Job_description"]
 
-donnees_fusionnees.to_csv("donnees_octoparser.csv", index=False)
 
 rse_score= pd.read_csv('donnees_RSE_entreprises.csv')
 
 result_df = pd.merge(donnees_fusionnees, rse_score, left_on='Company_Name', right_on='Nom de l\'Entreprise')
 
-result_df.to_csv("donnees_octoparser_et_rse_score.csv", index=False)
+# Renommer les colonnes
+result_df = result_df.rename(columns={
+    'Company_Name': 'company_name',
+    'Country': 'country',
+    'Technical_skills': 'technical_skills',
+    'Job_Title': 'title',
+    'Score Final': 'score'
+})
+
+# Réorganiser les colonnes et ajouter les colonnes manquantes (avec des valeurs NaN par défaut)
+result_df = result_df.reindex(columns=['title', 'company_name', 'location', 'experience', 'technical_skills', 'rank', 'score', 'country'])
+result_df['location'] = pd.NA
+result_df['experience'] = pd.NA
+result_df['rank'] = pd.NA
+
+# Ajouter une colonne d'index
+result_df.reset_index(inplace=True, drop=False)
+result_df.rename(columns={'index': 'index_col'}, inplace=True)
+
+# Vérifiez si la colonne '_merge' a été ajoutée
+print("Colonnes dans result_df:", result_df.columns)
+
+result_df.to_csv("donnees_octoparser_avec_rse_score.csv", index=True)
+
+mask = ~donnees_fusionnees['Company_Name'].isin(rse_score['Nom de l\'Entreprise'])
+non_merged_df = donnees_fusionnees[mask]
+# Renommer les colonnes
+non_merged_df= non_merged_df.rename(columns={
+    'Company_Name': 'company_name',
+    'Country': 'country',
+    'Technical_skills': 'technical_skills',
+    'Job_Title': 'title',
+    'Score Final': 'score'
+})
+
+# Réorganiser les colonnes et ajouter les colonnes manquantes (avec des valeurs NaN par défaut)
+non_merged_df = non_merged_df.reindex(columns=['title', 'company_name', 'location', 'experience', 'technical_skills', 'rank', 'score', 'country'])
+non_merged_df['location'] = pd.NA
+non_merged_df['experience'] = pd.NA
+non_merged_df['rank'] = pd.NA
+
+# Ajouter une colonne d'index
+non_merged_df.reset_index(inplace=True, drop=False)
+non_merged_df.rename(columns={'index': 'index_col'}, inplace=True)
+
+
+non_merged_df.to_csv("donnees_octoparser_sans_rse_score.csv", index=True)
 print(result_df.shape[0])
