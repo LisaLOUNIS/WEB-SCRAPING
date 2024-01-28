@@ -141,6 +141,15 @@ if app_mode == "Filter offers":
         elif pd.notna(score):
             st.markdown(f"**Certified Reputation!** **RSE:** {score}")
 
+        # Ajouter le Glassdoor rating
+        if pd.notna(row['Glassdoor_rating']):
+            # Utiliser des balises HTML pour le style en vert
+            st.markdown(f"<span style='color:green'>**Glassdoor Rating:** {row['Glassdoor_rating']}</span>", unsafe_allow_html=True)
+
+        st.markdown(f"**Location:** {row['location']}")
+        if pd.notna(row['technical_skills']):
+            st.markdown(f"**Skills:** {', '.join(eval(row['technical_skills']))}")
+
         st.markdown(f"**Location:** {row['location']}")
         if pd.notna(row['technical_skills']):
             st.markdown(f"**Skills:** {', '.join(eval(row['technical_skills']))}")
