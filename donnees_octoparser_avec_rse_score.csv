@@ -1,17 +1,29 @@
-,index_col,title,company_name,location,experience,technical_skills,rank,score,country
-0,0,Data Analyst Co-op,Ericsson,,,"['Python', 'R', 'SQL', 'Excel', 'Spark', 'SQL', 'Kubernetes', 'pySpark', 'Pyspark', 'PySpark', 'Pandas']",,65.8,CA
-1,1,Cloud RAN Business Insights Analyst Coop - Summer 2024,Ericsson,,,[],,65.8,CA
-2,2,STAGE - Ingénieur-Analyste Data / INTERNSHIP - Data Engineer-Analyst (H/F),TotalEnergies,,,"['Python', 'R', 'SQL', 'Excel', 'SQL', 'Git']",,75.0,FR
-3,3,STAGE - Ingénieur-Analyste Data / INTERNSHIP - Data Engineer-Analyst (H/F),TotalEnergies,,,"['Python', 'R', 'SQL', 'Excel', 'SQL', 'Git']",,75.0,FR
-4,4,Stagiaire Data Engineer (H/F) - Boulogne (France),Cegedim,,,"['Python', 'R', 'Spark', 'Scala', 'Java', 'java']",,62.6,FR
-5,5,GDO - STAGE - SERVICE TEAM ENGINEER - DATA INITIATIVES - H/F,Air Liquide,,,"['Python', 'R', 'SQL', 'Excel', 'SQL', 'Git']",,82.5,FR
-6,6,Data Management Engineer F/H,BNP Paribas,,,['R'],,84.3,FR
-7,7,Machine Learning Engineer H/F,BNP Paribas,,,"['Python', 'R', 'SQL', 'Excel', 'Spark', 'SQL', 'Git', 'Docker']",,84.3,FR
-8,8,DATA ENGINEER H/F,TotalEnergies,,,"['Python', 'R', 'SQL', 'AWS', 'AZURE', 'Databricks', 'Spark', 'SQL', 'Git']",,75.0,FR
-9,9,STAGE Machine Learning Engineer – Monitoring et Intégration LLM en production,Stellantis,,,"['R', 'Databricks', 'Git', 'NLP', 'LLM', 'Transformers', 'MLflow']",,81.1,FR
-10,10,Machine Learning Scientist (m/w/d),Bayer,,,"['Python', 'R', 'scikit-learn', 'Matplotlib', 'Pandas', 'SciKit-Learn']",,75.2,DE
-11,11,Data Analyst Co-op,Ericsson,,,"['Python', 'R', 'SQL', 'Excel', 'Spark', 'SQL', 'Kubernetes', 'pySpark', 'Pyspark', 'PySpark', 'Pandas']",,65.8,CA
-12,12,Responsible AI - Advisor - Specialist,Accenture,,,"['R', 'AWS', 'Git', 'generative AI']",,72.2,CA
-13,13,Radio Software Co-op ML and AI - Summer 2024,Ericsson,,,"['Python', 'R', 'Kubernetes', 'keras', 'Tensorflow', 'Random Forest', 'Pytorch', 'Java', 'java', 'C++']",,65.8,CA
-14,14,Responsible AI - Advisor - Senior Manager,Accenture,,,"['R', 'AWS', 'Git', 'generative AI']",,72.2,CA
-15,15,Responsible AI - Advisor - Manager,Accenture,,,"['R', 'AWS', 'Git', 'generative AI']",,72.2,CA
+,index_col,title,company_name,location,experience,technical_skills,rank,score,country,Glassdoor_rating
+0,0,Data Analyst Co-op,Ericsson,,,"['Python', 'R', 'SQL', 'Excel', 'Spark', 'SQL', 'Kubernetes', 'pySpark', 'Pyspark', 'PySpark', 'Pandas']",,65.8,Canada,
+1,1,Cloud RAN Business Insights Analyst Coop - Summer 2024,Ericsson,,,[],,65.8,Canada,
+2,2,STAGE - Ingénieur-Analyste Data / INTERNSHIP - Data Engineer-Analyst (H/F),TotalEnergies,,,"['Python', 'R', 'SQL', 'Excel', 'SQL', 'Git']",,75.0,France,"3,9"
+3,3,STAGE - Ingénieur-Analyste Data / INTERNSHIP - Data Engineer-Analyst (H/F),TotalEnergies,,,"['Python', 'R', 'SQL', 'Excel', 'SQL', 'Git']",,75.0,France,"3,9"
+4,4,STAGE - Ingénieur-Analyste Data / INTERNSHIP - Data Engineer-Analyst (H/F),TotalEnergies,,,"['Python', 'R', 'SQL', 'Excel', 'SQL', 'Git']",,75.0,France,"3,9"
+5,5,STAGE - Ingénieur-Analyste Data / INTERNSHIP - Data Engineer-Analyst (H/F),TotalEnergies,,,"['Python', 'R', 'SQL', 'Excel', 'SQL', 'Git']",,75.0,France,"3,9"
+6,6,STAGE - Ingénieur-Analyste Data / INTERNSHIP - Data Engineer-Analyst (H/F),TotalEnergies,,,"['Python', 'R', 'SQL', 'Excel', 'SQL', 'Git']",,75.0,France,"3,9"
+7,7,STAGE - Ingénieur-Analyste Data / INTERNSHIP - Data Engineer-Analyst (H/F),TotalEnergies,,,"['Python', 'R', 'SQL', 'Excel', 'SQL', 'Git']",,75.0,France,"3,9"
+8,8,STAGE - Ingénieur-Analyste Data / INTERNSHIP - Data Engineer-Analyst (H/F),TotalEnergies,,,"['Python', 'R', 'SQL', 'Excel', 'SQL', 'Git']",,75.0,France,"3,9"
+9,9,STAGE - Ingénieur-Analyste Data / INTERNSHIP - Data Engineer-Analyst (H/F),TotalEnergies,,,"['Python', 'R', 'SQL', 'Excel', 'SQL', 'Git']",,75.0,France,"3,9"
+10,10,STAGE - Ingénieur-Analyste Data / INTERNSHIP - Data Engineer-Analyst (H/F),TotalEnergies,,,"['Python', 'R', 'SQL', 'Excel', 'SQL', 'Git']",,75.0,France,"3,9"
+11,11,STAGE - Ingénieur-Analyste Data / INTERNSHIP - Data Engineer-Analyst (H/F),TotalEnergies,,,"['Python', 'R', 'SQL', 'Excel', 'SQL', 'Git']",,75.0,France,"3,9"
+12,12,Stagiaire Data Engineer (H/F) - Boulogne (France),Cegedim,,,"['Python', 'R', 'Spark', 'Scala', 'Java', 'java']",,62.6,France,"3,7"
+13,13,GDO - STAGE - SERVICE TEAM ENGINEER - DATA INITIATIVES - H/F,Air Liquide,,,"['Python', 'R', 'SQL', 'Excel', 'SQL', 'Git']",,82.5,France,"3,9"
+14,14,Data Management Engineer F/H,BNP Paribas,,,['R'],,84.3,France,"3,8"
+15,15,Machine Learning Engineer H/F,BNP Paribas,,,"['Python', 'R', 'SQL', 'Excel', 'Spark', 'SQL', 'Git', 'Docker']",,84.3,France,"3,8"
+16,16,DATA ENGINEER H/F,TotalEnergies,,,"['Python', 'R', 'SQL', 'AWS', 'AZURE', 'Databricks', 'Spark', 'SQL', 'Git']",,75.0,France,"3,9"
+17,17,DATA ENGINEER H/F,TotalEnergies,,,"['Python', 'R', 'SQL', 'AWS', 'AZURE', 'Databricks', 'Spark', 'SQL', 'Git']",,75.0,France,"3,9"
+18,18,DATA ENGINEER H/F,TotalEnergies,,,"['Python', 'R', 'SQL', 'AWS', 'AZURE', 'Databricks', 'Spark', 'SQL', 'Git']",,75.0,France,"3,9"
+19,19,DATA ENGINEER H/F,TotalEnergies,,,"['Python', 'R', 'SQL', 'AWS', 'AZURE', 'Databricks', 'Spark', 'SQL', 'Git']",,75.0,France,"3,9"
+20,20,DATA ENGINEER H/F,TotalEnergies,,,"['Python', 'R', 'SQL', 'AWS', 'AZURE', 'Databricks', 'Spark', 'SQL', 'Git']",,75.0,France,"3,9"
+21,21,STAGE Machine Learning Engineer – Monitoring et Intégration LLM en production,Stellantis,,,"['R', 'Databricks', 'Git', 'NLP', 'LLM', 'Transformers', 'MLflow']",,81.1,France,
+22,22,Machine Learning Scientist (m/w/d),Bayer,,,"['Python', 'R', 'scikit-learn', 'Matplotlib', 'Pandas', 'SciKit-Learn']",,75.2,Germany,"4,1"
+23,23,Data Analyst Co-op,Ericsson,,,"['Python', 'R', 'SQL', 'Excel', 'Spark', 'SQL', 'Kubernetes', 'pySpark', 'Pyspark', 'PySpark', 'Pandas']",,65.8,Canada,
+24,24,Responsible AI - Advisor - Specialist,Accenture,,,"['R', 'AWS', 'Git', 'generative AI']",,72.2,Canada,
+25,25,Radio Software Co-op ML and AI - Summer 2024,Ericsson,,,"['Python', 'R', 'Kubernetes', 'keras', 'Tensorflow', 'Random Forest', 'Pytorch', 'Java', 'java', 'C++']",,65.8,Canada,
+26,26,Responsible AI - Advisor - Senior Manager,Accenture,,,"['R', 'AWS', 'Git', 'generative AI']",,72.2,Canada,
+27,27,Responsible AI - Advisor - Manager,Accenture,,,"['R', 'AWS', 'Git', 'generative AI']",,72.2,Canada,

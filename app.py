@@ -145,7 +145,6 @@ if app_mode == "Filter offers":
         if pd.notna(row['technical_skills']):
             st.markdown(f"**Skills:** {', '.join(eval(row['technical_skills']))}")
 
-
 # If in 'Skills per country' mode
 elif app_mode == "Skills per country":
     st.title("Skills Analysis")
