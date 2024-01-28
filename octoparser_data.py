@@ -1,5 +1,6 @@
 import pandas as pd
 import glob
+import numpy as np
 
 def lire_tous_csv(dossier):
     # Liste tous les fichiers CSV dans le dossier
@@ -17,6 +18,9 @@ def lire_tous_csv(dossier):
     donnees_fusionnees = pd.concat(donnees, ignore_index=True)
 
     return donnees_fusionnees
+
+google_df = pd.read_csv("jobs_data.csv")
+
 
 # Exemple d'utilisation
 dossier = r"C:\Users\lisac\Downloads\Octoparser"
@@ -62,8 +66,21 @@ del donnees_fusionnees["Job_description"]
 rse_score= pd.read_csv('donnees_RSE_entreprises.csv')
 
 result_df = pd.merge(donnees_fusionnees, rse_score, left_on='Company_Name', right_on='Nom de l\'Entreprise')
+# Fusionner google_df avec seulement la colonne Score Final de rse_score_df
+result_df_google = pd.merge(
+    google_df,
+    rse_score[['Nom de l\'Entreprise', 'Score Final']],
+    how='left',
+    left_on='company_name',  # Correction possible ici
+    right_on='Nom de l\'Entreprise'
+)
 
-# Renommer les colonnes
+# Utilisez loc pour remplacer les valeurs de 'score' seulement si elles sont NaN dans google_df.
+# Ceci présuppose que la colonne 'score' existe déjà dans google_df. Si elle n'existe pas, vous devrez la créer avant cette étape.
+result_df_google.loc[result_df_google['score'].isnull(), 'score'] = result_df_google['Score Final']
+
+# Supprimer la colonne supplémentaire 'Nom de l'Entreprise' si nécessaire
+result_df_google.drop(columns=['Nom de l\'Entreprise'], inplace=True)
 result_df = result_df.rename(columns={
     'Company_Name': 'company_name',
     'Country': 'country',
@@ -110,4 +127,5 @@ non_merged_df.rename(columns={'index': 'index_col'}, inplace=True)
 
 
 non_merged_df.to_csv("donnees_octoparser_sans_rse_score.csv", index=True)
+result_df_google.to_csv("google_jobs.csv", index=True)
 print(result_df.shape[0])

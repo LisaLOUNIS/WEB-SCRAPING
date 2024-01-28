@@ -6,7 +6,7 @@ import numpy as np
 # Load data function
 @st.cache_resource
 def load_data():
-    jobs_data = pd.read_csv('jobs_data.csv')
+    jobs_data = pd.read_csv('google_jobs.csv')
     data_avec_rse = pd.read_csv('donnees_octoparser_avec_rse_score.csv')
     data_sans_rse = pd.read_csv('donnees_octoparser_sans_rse_score.csv')
     rse_entreprises = pd.read_csv('donnees_RSE_entreprises.csv')
